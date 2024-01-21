@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'DIN';
+  font-style: normal;
+  font-weight: 400;
+  src: local('DIN'), local('DIN-Regular'),
+    url('/assets/fonts/DIN-Regular.woff') format('truetype');
+}
+@font-face {
+  font-family: 'DIN';
+  font-style: Bold;
+  font-weight: 700;
+  src: local('DIN'), local('DIN-Bold'),
+    url('/assets/fonts/DIN-Bold.woff') format('truetype');
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'DIN', sans-serif;
+}
+
+body {
+  font-family: 'DIN', sans-serif;
+}

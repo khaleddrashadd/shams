@@ -1,0 +1,22 @@
+
+@mixin breakpoint($breakpoint, $direction: min) {
+  @if $direction == min {
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  } @else if $direction == max {
+    @media screen and (max-width: $breakpoint) {
+      @content;
+    }
+  } @else if $direction == only {
+    @media screen and (min-width: $breakpoint) and (max-width: $breakpoint) {
+      @content;
+    }
+  } @else {
+    @error "Invalid direction for breakpoint mixin.";
+  }
+}
+
+@mixin transition-ease($time: 0.3s, $property: all) {
+  transition: $property $time ease-in-out;
+}

@@ -1,0 +1,219 @@
+@keyframes wave {
+  0% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      99% 100%,
+      81% 100%,
+      64% 100%,
+      46% 100%,
+      29% 100%,
+      14% 100%,
+      0 100%
+    );
+  }
+
+  10% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 90%,
+      84% 94%,
+      66% 95%,
+      47% 94%,
+      31% 95%,
+      14% 96%,
+      0 94%
+    );
+  }
+
+  20% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 74%,
+      81% 72%,
+      63% 72%,
+      44% 75%,
+      33% 77%,
+      16% 78%,
+      0 74%
+    );
+  }
+
+  40% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 53%,
+      85% 55%,
+      67% 58%,
+      44% 54%,
+      30% 48%,
+      15% 47%,
+      0 49%
+    );
+  }
+
+  60% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 24%,
+      86% 25%,
+      69% 29%,
+      53% 34%,
+      37% 38%,
+      18% 40%,
+      0 38%
+    );
+  }
+
+  80% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 22%,
+      84% 29%,
+      67% 31%,
+      45% 27%,
+      26% 17%,
+      12% 14%,
+      0 15%
+    );
+  }
+
+  90% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 5%,
+      86% 10%,
+      73% 10%,
+      55% 6%,
+      33% 3%,
+      15% 5%,
+      0 9%
+    );
+  }
+
+  100% {
+    clip-path: polygon(
+      0% 100%,
+      100% 100%,
+      100% 0,
+      86% 0,
+      71% 0,
+      55% 0,
+      34% 0,
+      18% 0,
+      0 0
+    );
+  }
+}
+
+.video {
+  &__bar {
+    width: 100%;
+    height: $spacing-4;
+    position: relative;
+
+    &-total {
+      display: block;
+      background-color: $shams-blue-light;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &--active {
+      display: block;
+      background-color: $shams-yellow;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 999px;
+      transition: width 0.7s cubic-bezier(0, 0.02, 1, 5.12);
+    }
+  }
+}
+
+.video {
+  display: block;
+  width: 100%;
+  // height: 100vh;
+}
+
+.hero {
+  position: relative;
+  .card {
+    width: 468px;
+    background-color: $shams-white;
+    border-radius: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  &__card-title {
+    font-size: $font-xxl;
+    font-weight: bold;
+    color: $shams-blue-dark;
+    margin-bottom: $spacing-24;
+  }
+
+  &__card-description {
+    height: 130px;
+    font-size: $font-md;
+    color: $shams-blue-dark;
+    margin-bottom: $spacing-48;
+    text-overflow: ellipsis;
+  }
+
+  &__card-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 48px;
+    background-color: $shams-blue;
+    color: $shams-white;
+    border-radius: 999px;
+    font-size: $font-md;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    &:hover {
+      background-color: $shams-white;
+      color: $shams-blue;
+      border: 1px solid $shams-blue;
+    }
+
+    // &::before {
+    //   content: '';
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   z-index: -1;
+    //   border-radius: 999px;
+    //   // background-color: $shams-blue;
+    //   color: $shams-white;
+    // }
+    // &:hover::before {
+    //   background-color: $shams-white;
+    //   color: $shams-blue;
+    //   animation: wave 4s linear;
+    // }
+
+  }
+  &__card-content {
+    width: 468px;
+
+    padding: $spacing-48;
+  }
+}

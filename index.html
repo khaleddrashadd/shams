@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شمس</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/glide.core.min.css" />
+  <!-- <link rel="stylesheet" href="assets/css/glide.theme.min.css" /> -->
+  <script defer src="./assets/js/icons.min.js"></script>
+  <script defer src="./assets/js/main.js" type="module"></script>
+  <script defer src="./assets/js/bootstrap.min.js" type="module"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="#" class="header__logo-link">
+        <img src="./assets/img/static/logo-light.svg" alt="shams logo" class="header__logo-img" />
+        <img src="./assets/img/static/logo.svg" alt="shams logo" class="header__logo-img--scrolled" />
+      </a>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <div>
+            <span>عن المؤسسة</span>
+            <span class="drop-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <div>
+            <span>المشاريع</span>
+            <span class="drop-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+            </>
+        </li>
+        <li class="header__nav-item">
+          <div>
+            <span>الأبحاث</span>
+            <span class="drop-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <a href="#">الشركاء</a>
+
+        </li>
+        <li class="header__nav-item">
+          <div>
+            <span>المركز الإعلامي</span>
+            <span class="drop-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <div>
+            <span>التوظيف</span>
+            <span class="drop-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+
+        </li>
+        <li class="header__nav-item">
+          <a href="#">تواصل معنا</a>
+
+        </li>
+      </ul>
+      <div class="header__action">
+        <a href="#" class="header__lang">
+          <span class="header__lang-text">En</span>
+        </a>
+        <a href="#" class="header__tender">
+          <span class="header__tender-text">المنافسات</span>
+        </a>
+      </div>
+    </nav>
+
+    <button type="button" class="header__menu-btn" id="menu-btn">
+      <span class="header__menu-line-1"></span>
+      <span class="header__menu-line-2"></span>
+      <span class="header__menu-line-3"></span>
+    </button>
+
+    <div class="header__menu header__menu--responsive" id="menu">
+      <ul>
+        <li class="header__menu-item">
+          <a href="#">
+            <span>عن المؤسسة</span>
+            <span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </a>
+
+        </li>
+        <li class="header__menu-item">
+          <a href="#">
+            <span>المشاريع</span>
+            <span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">
+            <span>الأبحاث</span>
+            <span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">الشركاء</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">
+            <span>المركز الإعلامي</span>
+            <span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">
+            <span>التوظيف</span>
+            <span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#">تواصل معنا</a>
+        </li>
+        <a class="header__menu-lang" href="#">
+          <span>English<span />
+        </a>
+        <a class="header__tender header__tender--menu" href="#">
+          <span class="header__tender-text">المنافسات<span />
+        </a>
+      </ul>
+    </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <video src="./assets/img/dynamic/intro.mp4" class="video" autoplay muted loop id="intro-video"></video>
+      <div class="video__bar">
+        <span class="video__bar-total"></span>
+        <span class="video__bar--active"></span>
+      </div>
+    </section>
+    <section class="hero">
+      <div>
+        <img src="./assets/img/dynamic/slider-1.webp" alt="">
+      </div>
+      <div class="glide">
+        <div class="card">
+          .
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="hero__card-content">
+                <h3 class="hero__card-title">عن شمس</h3>
+                <p class="hero__card-description">المؤسسة العامة للمحافظة على للشعب المرجانية السلاحف في البحر الأحمر هي
+                  مؤسسة حكومية سعودية تأسست
+                  بموجب قرار مجلس
+                  الوزراء رقم (٢٥٠) بتاريخ ١٤٤٣/٠٤/٢٥ هجري و تهدف إلى التنظيم والإشراف والمحافظة على الشعب المرجانية
+                  والسلاحف</p>
+                  <a href="#" class="hero__card-action">التفاصيل</a>
+                  </div>
+              </li>
+              <li class="glide__slide">
+                <div class="hero__card-content">
+                <h3 class="hero__card-title">سلاحف البحر الأحمر</h3>
+                <p class="hero__card-description">عد السلاحف البحرية بلا شك من أبرز الحيوانات رمزية التي تميز الحياة
+                  البحرية في البحر الأحمر، حيث تُبدي روعة وغنى التنوع
+                  البيولوجي التي تزخر به هذا البيئة البحرية، حيث أن السلاحف تُجسد قوة التكيف والصمود في مواجهة التحديات
+                  المحيطية، بالإضافة
+                  إلى قدرتها عل</p>
+                  <a href="#" class="hero__card-action">التفاصيل</a>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="hero__card-content">
+                  <h3 class="hero__card-title">ما هي الشعب المرجانية؟</h3>
+                  <p class="hero__card-description">
+                    تعتبر الشعب المرجانية في البحر الأحمر مشهدًا ساحرًا ونظاماً بيئياً وبحرياً حيوياً بشكل استثنائي على
+                    مستوى العالم. تتواجد
+                    هذه الشعب المدهشة على طول السواحل في عدة دول، وتقدم مشهدًا بديعًا يذهل العقول بألوانه الزاهية وأشكاله
+                    الفريدة
+                  </p>
+                  <a href="#" class="hero__card-action"><span>التفاصيل</span></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <div class="card main-slider__card">
+                <h3></h3>
+              </div>
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+            <div class="glide__bullets" data-guide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="heroCarousel" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img playsinline src="assets/img/dynamic/slider-1.webp" alt="" class="intor-logo-bg"/>
+          <div class="carousel-caption">
+            <span class="cascade-effect cascade-effect-1">LEADING 1</span>
+            <h5 class="cascade-effect cascade-effect-2">innovation</h5>
+            <p class="cascade-effect cascade-effect-3">in water technology and research</p>
+          </div>
+          <div class="carousel-video">
+            <img playsinline src="assets/img/dynamic/slider-2.webp" alt="" class="intor-logo-bg" />
+            <div class="video">
+              <button class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img playsinline src="assets/img/dynamic/slider-3.webp" alt="" class="intor-logo-bg" />
+                <p>
+                  introductory video
+                </p>
+              </button>
+            </div>
+            <!-- <div class="shape">
+                  <img src="assets/img/hero-slider/icon.png" alt="" />
+                </div> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/slider/img01.jpg" class="w-100 d-block" />
+          <div class="carousel-caption">
+            <span>LEADING 2</span>
+            <h5>innovation</h5>
+            <p>in water technology and research</p>
+          </div>
+          <div class="carousel-video">
+            <div class="video">
+              <button class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <img  src="assets/img/dynamic/slider-1.webp" alt="" class="intor-logo-bg" />
+              </button>
+              <p>
+                introductory <br />
+                video
+              </p>
+            </div>
+            <!-- <div class="shape">
+                  <img src="assets/img/slider/icon.png" alt="" />
+                </div> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/dynamic/slider-1.webp" alt="" class="intor-logo-bg" />
+          <div class="carousel-caption">
+            <span>LEADING 2</span>
+            <h5>innovation</h5>
+            <p>in water technology and research</p>
+          </div>
+          <div class="carousel-video">
+            <div class="video">
+              <button class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <img src="assets/img/dynamic/slider-1.webp" alt="" class="intor-logo-bg" />
+              </button>
+              <p>
+                introductory <br />
+                video
+              </p>
+            </div>
+            <!-- <div class="shape">
+                  <img src="assets/img/slider/icon.png" alt="" />
+                </div> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/dynamic/slider-1.webp" alt="" class="intor-logo-bg" />
+          <div class="carousel-caption">
+            <span>LEADING 2</span>
+            <h5>innovation</h5>
+            <p>in water technology and research</p>
+          </div>
+          <div class="carousel-video">
+            <div class="video">
+              <button class="play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <img src="assets/img/slider/video.svg" alt="" />
+              </button>
+              <p>
+                introductory <br />
+                video
+              </p>
+            </div>
+            <!-- <div class="shape">
+                  <img src="assets/img/slider/icon.png" alt="" />
+                </div> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+  </main>
+
+  <footer class="footer-container">
+    <div class="container">
+      <div class="footer">
+        <div class="footer__site-map">
+          <div class="footer__category">
+            <h3 class="footer__category-title">عن شمس</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="footer__drop-icon">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>نبذة عن شمس</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الرؤية والرسالة</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>فريق القيادة</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الالتزام بالاستدامة</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__category-title">مشاريعنا</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>مشاريع مستمرة</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>مشاريع مستقبلية</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>مشاريع مكتملة</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__category">
+            <h3 class="footer__category-title">أبحاثنا</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>نبذة عن أبحاث شمس</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>مراكز البحوث</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>أحدث المنشورات البحثية</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>خدمات دعم البحوث</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الموارد / المخرجات / التقارير</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__category-title">شركاؤنا</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>نبذة عن شركاؤنا</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الشركاء الاستراتيجيين</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>فرص الشراكة/التعاون</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__category-title">المركز الإعلامى</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الأخبار</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>مكتبة الصور و الفيديو</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الملف الصحفي</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__category">
+            <h3 class="footer__category-title">التوظيف</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>لماذا شمس؟</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الوظائف المتاحة</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>عملية التقديم</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>استحقاقات الموظفين</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__category-title">تواصل معنا</h3>
+            <ul class="footer__Category-list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>رقم المؤسسة الموحد</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>الموقع</span>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <span class="drop-icon drop-icon__left">
+                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
+                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
+                  </span>
+                  <span>البلاغات</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__social">
+          <div class="footer__logo">
+            <img src="./assets/img/static/logo-light.svg" alt="shams logo">
+          </div>
+          <div class="footer__social-icons">
+            <a href="#" class="footer__social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="footer__social-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#" class="footer__social-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="footer__social-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__policy">
+          <div class="footer__policy-links">
+            <a href="#" class="footer__policy-link">
+              <span class="footer__policy-text">سياسة الخصوصية</span>
+              <span class="footer__policy-separator">|</span>
+            </a>
+            <a href="#" class="footer__policy-link">
+              <span class="footer__policy-text">شروط استخدام البوابة</span>
+              <span class="footer__policy-separator">|</span>
+            </a>
+            <a href="#" class="footer__policy-link">
+              <span class="footer__policy-text">خريطة الموقع</span>
+              <span class="footer__policy-separator">|</span>
+            </a>
+            <a href="#" class="footer__policy-link">
+              <span class="footer__policy-text">حول البوابة</span>
+
+            </a>
+          </div>
+          <div class="footer__policy-copy">
+            <p>جميع الحقوق محفوظة - Shams.gov.sa © 2024</p>
+
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="./assets/js/glide.min.js"></script>
+  <script>
+    
+  </script>
+
+</body>
+
+</html>
