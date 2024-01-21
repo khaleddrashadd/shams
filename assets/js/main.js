@@ -1,8 +1,11 @@
+import handleLinksSlide from'./owl.js'
+
 document.addEventListener('DOMContentLoaded', () => {
   handleToggleMenu();
   handleVideo();
 
   handleHeaderScroll()
+  handleLinksSlide();
 });
 
 const handleToggleMenu = () => {

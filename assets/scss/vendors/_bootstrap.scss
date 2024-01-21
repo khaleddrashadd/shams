@@ -1,0 +1,21 @@
+.carousel-indicators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-16;
+  margin-inline: $spacing-16;
+  position: unset;
+  margin-block: unset;
+  .bullets {
+    border: none;
+    background: none;
+    display: flex;
+    width: unset;
+
+    svg {
+      width: 8px;
+      height: 8px;
+      color: $shams-blue;
+    }
+  }
+}
