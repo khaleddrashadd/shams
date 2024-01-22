@@ -20,9 +20,9 @@ const handleLinksSlide = () => {
       },
       768: {
         items: 2,
-        nav: true,
+        nav: false,
       },
-      960: {
+      992: {
         items: 3,
         nav: true,
       },

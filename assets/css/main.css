@@ -398,6 +398,14 @@ body {
   right: -100px;
   transform: translateY(50%);
 }
+@media screen and (min-width: 992px) {
+  .owl-prev {
+    right: -80px;
+    width: 60px;
+    height: 60px;
+    top: 40px;
+  }
+}
 
 .owl-next {
   border: 1px solid #0d66b0 !important;
@@ -408,6 +416,14 @@ body {
   top: 20px;
   left: -100px;
   transform: translateY(50%);
+}
+@media screen and (min-width: 992px) {
+  .owl-next {
+    left: -80px;
+    width: 60px;
+    height: 60px;
+    top: 40px;
+  }
 }
 
 .video__bar {
