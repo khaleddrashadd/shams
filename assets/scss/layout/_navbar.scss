@@ -15,13 +15,13 @@
   z-index: 999;
 
   &__logo-img {
-    @include breakpoint($lg) {
+   
       &--scrolled{
         display: none;
       }
-    }
+    
 
-    @include breakpoint($lg, max) {
+    @include breakpoint($xl, max) {
       width: 152px;
     }
   }
@@ -51,6 +51,10 @@
     display: flex;
     align-items: center;
     gap: $spacing-24;
+  
+    @include breakpoint($lg, $xl) {
+      gap: $spacing-6;
+    }
     color: $shams-white;
     padding-inline: $spacing-24;
   }
@@ -171,13 +175,14 @@
     @include transition-ease;
   }
 
+  @include breakpoint($lg) {
   &--scrolled{
     .header__logo-img{
       display: none;
     }
     .header__logo-img--scrolled{
       display: block;
-      @include breakpoint($lg, max) {
+      @include breakpoint($xl, max) {
       width: 152px;
     }
     }
@@ -196,6 +201,6 @@
     }
     background-color: $shams-white;
   }
-
+}
 
 }
