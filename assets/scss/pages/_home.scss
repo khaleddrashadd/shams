@@ -13,6 +13,14 @@
     padding: $spacing-8 $spacing-16;
     border-radius: 999px;
 
+    @include transition-ease(0.3s, background-color);
+    z-index: 1;
+    border: 1px solid $shams-blue;
+    &:hover {
+      @include transition-ease(0.4s, color);
+      color: $shams-blue;
+    }
+
     &::before {
       content: '';
       position: absolute;
