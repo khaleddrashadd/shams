@@ -7,11 +7,11 @@ const handleLinksSlide = () => {
     autoplayHoverPause: false,
     responsiveClass: true,
     nav: true,
-    rtl: false,
+    rtl: true,
     stagePadding: 20,
     navText: [
-      "<img src='../img/arrows/left-gray.webp'>",
-      "<img src='../img/arrows/right-gray.webp'>",
+      "<i class='fa-solid fa-chevron-right hero__slide-icon links__control links__control--right'></i>",
+      "<i class='fa-solid fa-chevron-left hero__slide-icon links__control links__control--left'></i>",
     ],
     responsive: {
       0: {
@@ -27,7 +27,7 @@ const handleLinksSlide = () => {
         nav: true,
       },
       1140: {
-        items: 4,
+        items: 3,
         nav: true,
       },
     },
