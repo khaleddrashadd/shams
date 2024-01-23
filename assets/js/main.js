@@ -63,4 +63,13 @@ const handleHeaderScroll = () => {
       carousel1.next();
       carousel2.next();
     });
+
+    document.getElementById('carouselNav').addEventListener('click', function (e) {
+        var targetIndex = parseInt(e.target.getAttribute('data-bs-slide-to'));
+        carousel1.to(targetIndex);
+        carousel2.to(targetIndex);
+    });
+
+
+
   });
