@@ -48,3 +48,19 @@ const handleHeaderScroll = () => {
     }
   } );
 };
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var carousel1 = new bootstrap.Carousel(document.getElementById('hero__banner'));
+    var carousel2 = new bootstrap.Carousel(document.getElementById('hero__slide'));
+
+   
+    document.getElementById('prevBtn').addEventListener('click', function () {
+      carousel1.prev();
+      carousel2.prev();
+    });
+    document.getElementById('nextBtn').addEventListener('click', function () {
+      carousel1.next();
+      carousel2.next();
+    });
+  });
