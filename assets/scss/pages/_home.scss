@@ -1,3 +1,47 @@
+.intro {
+  position: relative;
+  @include breakpoint($lg, max) {
+    margin-top: 98px;
+  }
+  &__action {
+    position: absolute;
+    top: 50%;
+    right: $spacing-24;
+    transform: translateY(-50%);
+    color: $shams-white;
+    background-color: $shams-blue;
+    padding: $spacing-8 $spacing-16;
+    border-radius: 999px;
+
+    @include transition-ease(0.3s, background-color);
+    z-index: 1;
+    border: 1px solid $shams-blue;
+    &:hover {
+      @include transition-ease(0.4s, color);
+      color: $shams-blue;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      visibility: hidden;
+      border-radius: 999px;
+      background-color: $shams-white;
+      z-index: -1;
+      transform: translate(0, -100%);
+    }
+    &:hover::before {
+      visibility: visible;
+      transform: translate(0, 0);
+      animation: wave 0.6s linear;
+    }
+  }
+}
+
 .video {
   &__bar {
     width: 100%;
@@ -241,7 +285,7 @@
     height: 132px;
     object-fit: cover;
   }
-  img{
+  img {
     position: absolute;
     inset: 0;
     height: 132px;
