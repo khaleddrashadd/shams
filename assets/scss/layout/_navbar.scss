@@ -65,6 +65,7 @@
     border-radius: $spacing-8;
     color: $shams-white;
     font-size: $font-md;
+     cursor: pointer;
   }
 
   &__tender {
@@ -222,6 +223,7 @@
 
       .header__lang {
         color: $shams-blue-dark;
+        cursor: pointer;
       }
       background-color: $shams-white;
     }

@@ -1,11 +1,13 @@
-import handleLinksSlide from'./owl.js'
+import handleLinksSlide from './owl.js';
+import { handleCarouselSlide } from './carousel.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   handleToggleMenu();
   handleVideo();
 
-  handleHeaderScroll()
+  handleHeaderScroll();
   handleLinksSlide();
+  handleCarouselSlide();
 });
 
 const handleToggleMenu = () => {
@@ -38,7 +40,7 @@ const handleVideo = () => {
 const handleHeaderScroll = () => {
   const header = document.querySelector('.header');
   const headerHeight = header.offsetHeight;
-  window.addEventListener('scroll',()=>{
+  window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
 
     if (scrollPosition >= headerHeight) {
@@ -46,30 +48,5 @@ const handleHeaderScroll = () => {
     } else {
       header.classList.remove('header--scrolled');
     }
-  } );
-};
-
-
-  document.addEventListener('DOMContentLoaded', function () {
-    var carousel1 = new bootstrap.Carousel(document.getElementById('hero__banner'));
-    var carousel2 = new bootstrap.Carousel(document.getElementById('hero__slide'));
-
-   
-    document.getElementById('prevBtn').addEventListener('click', function () {
-      carousel1.prev();
-      carousel2.prev();
-    });
-    document.getElementById('nextBtn').addEventListener('click', function () {
-      carousel1.next();
-      carousel2.next();
-    });
-
-    document.getElementById('carouselNav').addEventListener('click', function (e) {
-        var targetIndex = parseInt(e.target.getAttribute('data-bs-slide-to'));
-        carousel1.to(targetIndex);
-        carousel2.to(targetIndex);
-    });
-
-
-
   });
+};

@@ -1,13 +1,19 @@
 .ceo {
-  margin-top: $spacing-50 * 2;
-  position: relative;
+  background-color: #e6fafd;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  &__container {
+    // margin-top: 100px;
+    position: relative;
+  }
   &__title {
     font-size: 63px;
-    @include breakpoint($md,max) {
+    @include breakpoint($md, max) {
       font-size: 28px;
     }
     font-weight: 700;
-    margin-block: $spacing-38;
+    margin-block: $spacing-24;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +33,7 @@
 
   &__name {
     font-size: $font-xxxl !important;
-    @include breakpoint($md,max) {
+    @include breakpoint($md, max) {
       font-size: 25px;
     }
     font-weight: 700 !important;
@@ -35,11 +41,10 @@
     @include breakpoint($md) {
       margin-block: $spacing-16;
     }
-
   }
   &__role {
     font-size: 28px !important;
-    @include breakpoint($md,max) {
+    @include breakpoint($md, max) {
       font-size: 24px;
     }
     font-weight: 700 !important;
@@ -55,12 +60,12 @@
     }
   }
 
-  &__description{
+  &__description {
     font-size: $font-md;
     font-weight: 400;
     color: $shams-blue-dark;
     margin-block: $spacing-48;
     text-align: center;
-    margin-top: $spacing-50 * 6;
+    margin-top: 300px;
   }
 }
