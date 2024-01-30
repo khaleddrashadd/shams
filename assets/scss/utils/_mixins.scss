@@ -18,8 +18,8 @@
   }
 }
 
-@mixin transition-ease($time: 0.3s, $property: all) {
-  transition: $property $time ease-in-out;
+@mixin transition-ease($time: 0.3s, $property: all, $type: ease-in-out) {
+  transition: $property $time $type;
 }
 
 @mixin line-clamp($num: 2) {

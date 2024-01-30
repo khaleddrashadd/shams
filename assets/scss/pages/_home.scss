@@ -175,7 +175,7 @@
     color: $shams-blue;
   }
 
-  :dir(rtl) {
+  :lang(ar) {
     .hero__slide-icon {
       transform: rotate(180deg);
     }
@@ -513,33 +513,95 @@
 }
 
 .contact {
+  background: linear-gradient(
+    to left,
+    $shams-white 0%,
+    $shams-white 59%,
+    $shams-blue-light 59%,
+    $shams-blue-light 100%
+  );
+  &:lang(en) {
+    background: linear-gradient(
+      to right,
+      $shams-white 0%,
+      $shams-white 59%,
+      $shams-blue-light 59%,
+      $shams-blue-light 100%
+    );
+  }
   &__heading {
-    border: 1px solid red; 
+    border: 1px solid red;
     border-radius: $spacing-12;
     padding-right: $spacing-24;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: $spacing-24;
     h2 {
       font-size: $font-xxxl;
+      @include breakpoint($md, max) {
+        font-size: $font-xxl;
+      }
       font-weight: 700;
       color: $shams-blue-dark;
     }
-    
   }
 
-  &__pattern{
+  &__pattern {
     position: relative;
     width: 100px;
     height: 100px;
-    img{
+    img {
       width: 100px;
       height: 100px;
       position: absolute;
       inset: 0;
       object-fit: cover;
-      object-position: 61% ;
+      object-position: 61%;
     }
+  }
+  &__content-time {
+    font-size: $font-md;
+    color: $shams-blue-dark;
+    margin-bottom: $spacing-8;
+  }
+  &__content-location {
+    font-size: $font-md;
+    font-weight: 700;
+    color: $shams-blue-dark;
+    margin-bottom: $spacing-24;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-14;
+  }
+
+  &__info-item {
+    color: $shams-blue-dark;
+  }
+  &__info-title {
+    display: flex;
+    align-items: last baseline;
+    gap: $spacing-16;
+    svg {
+      font-size: 22px;
+    }
+    h5 {
+      font-size: $font-md;
+      font-weight: 700;
+    }
+  }
+  p {
+    font-size: $font-md;
+  }
+
+  &__location {
+    padding-block: $spacing-48;
+  }
+  &__social-content {
+    padding-block: $spacing-48;
+    padding-right: $spacing-24;
   }
 }

@@ -176,12 +176,15 @@
       <div class="section__banner">
         <img src="./assets/img/dynamic/banner.webp" alt="">
       </div>
-      <div class="bg-mint">
+    </section>
+    <section class="bg-mint">
+      <div class="tenders">
         <div class="container">
-          <div class="tenders" id="content">
+          <div id="content">
             <div class="tenders__item">
               <div class="row">
-                <div class="col-9">
+                <div class="col-12 col-lg-9">
+                  <div class="tenders__item-content">
                   <div class="tenders__item-heading">
                     <span class="tenders__item-date">تاريخ النشر :2024-01-25</span>
                     <span class="tenders__item-type">شراء مباشر</span>
@@ -195,51 +198,75 @@
                   <div class="tenders__action">
                     <a href="#" class="primary-btn">رابط منصة اعتماد</a>
                   </div>
+                  </div>
                   <div class="tenders__details">
                     <div class="row">
-                      <div class="col-4">
+                      <div class="col-12 col-md-4 gx-0 tenders__details-data-item">
+
                         <div class="tenders__details-data">
                           <span class="tenders__details-title">الرقم المرجعي</span>
                           <span class="tenders__details-value">240139007701</span>
                         </div>
+
                       </div>
-                      <div class="col-4">
+                      <div class="col-12 col-md-4 gx-0 tenders__details-data-item">
+
                         <div class="tenders__details-data">
                           <span class="tenders__details-title">اخر موعد لإستلام الاستفسارات</span>
                           <span class="tenders__details-value">2024-01-27</span>
                         </div>
+
                       </div>
-                      <div class="col-4">
+                      <div class="col-12 col-md-4 gx-0 tenders__details-data-item">
+
                         <div class="tenders__details-data">
                           <span class="tenders__details-title">آخر موعد لتقديم العروض</span>
-                          <div class="tenders details-date ">
+                          <div class="tenders__details-date">
                             <span class="tenders__details-value">2024-01-30</span>
                             <span class="tenders__details-value">09:30 AM</span>
                           </div>
+
                         </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
-                <div class="col-3">
-                  <div class="tenders__progress">
-                    <div class="tenders__timer">
-                      <div class="progress-container">
-                        <div class="progress-bar" style="transform: rotate(0deg);"></div>
+                <div class="col-12 col-lg-3">
+                  <div class="tenders__item-count">
+                    <div class="tenders__progress">
+                      <div class="tenders__timer">
+
+                        <div role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"
+                          style="--value:15"></div>
+                          
                       </div>
+                      <p>5 يوم 12 ساعة</p>
                     </div>
-                    <p>5 يوم 12 ساعة</p>
-                  </div>
-                  <div class="tenders__price">
-                    <p>قيمة وثائق المنافسة</p>
-                    <h4>1900 ريال</h4>
+                    <div class="tenders__price">
+                      <p>قيمة وثائق المنافسة</p>
+                      <h4>1900 ريال</h4>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="tenders__pagination">
+            <a href="" class="tenders__pagination-item button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a href="#" class="tenders__pagination-item active">1</a>
+            <a href="#" class="tenders__pagination-item">2</a>
+            <span class="tenders__pagination-item">...</span>
+            <a href="#" class="tenders__pagination-item">20</a>
+            <a href="#" class="tenders__pagination-item button">
+              <i class="fa-solid fa-chevron-left"></i>
+            </a>
+          </div>
         </div>
       </div>
+
     </section>
 
     <script>

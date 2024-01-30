@@ -47,7 +47,7 @@
   &__social-icons {
     display: flex;
     align-items: center;
-    gap: $spacing-24;
+    gap: $spacing-12;
     color: $shams-white;
   }
 
@@ -79,29 +79,27 @@
   }
 
   &__drop-icon {
-  &--left {
-    color: $shams-yellow;
-    &:dir(ltr) {
-      display: none;
-    }
+    &--left {
+      color: $shams-yellow;
+      &:lang(en) {
+        display: none;
+      }
 
-    svg {
-      width: $spacing-6;
-      height: $spacing-12;
+      svg {
+        width: $spacing-6;
+        height: $spacing-12;
+      }
     }
-  }
-  &--right {
-    color: $shams-yellow;
-    &:dir(rtl) {
-      display: none;
-    }
+    &--right {
+      color: $shams-yellow;
+      &:lang(ar) {
+        display: none;
+      }
 
-    svg {
-      width: $spacing-6;
-      height: $spacing-12;
+      svg {
+        width: $spacing-6;
+        height: $spacing-12;
+      }
     }
   }
 }
-}
-
-
