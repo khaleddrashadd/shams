@@ -514,12 +514,32 @@
 
 .contact {
   &__heading {
-    border: 0.5px solid red; 
+    border: 1px solid red; 
+    border-radius: $spacing-12;
     padding-right: $spacing-24;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     h2 {
       font-size: $font-xxxl;
       font-weight: 700;
       color: $shams-blue-dark;
+    }
+    
+  }
+
+  &__pattern{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    img{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+      object-position: 61% ;
     }
   }
 }
