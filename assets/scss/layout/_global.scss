@@ -63,4 +63,9 @@
     padding-block: 70px;
     font-size: $font-md;
   }
+  &__banner{
+    img{
+      height: 430px;
+    }
+  }
 }

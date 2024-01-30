@@ -9,6 +9,32 @@ document.addEventListener('DOMContentLoaded', () => {
   handleLinksSlide();
   handleCarouselSlide();
   handleOurProjectsSlide();
+
+
+
+
+
+
+
+
+
+  function updateProgress() {
+    const progressBar = document.querySelector('.progress-bar');
+
+    // Set the desired progress value (between 0 and 100)
+    const progressValue = 100;
+
+    // Calculate the rotation angle based on the progress value
+    const rotationAngle = (progressValue / 100) * 360;
+
+    // Apply the rotation to the progress bar
+    progressBar.style.transform = `rotate(${rotationAngle}deg)`;
+  }
+
+
+
+
+
 });
 
 const handleToggleMenu = () => {

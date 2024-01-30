@@ -162,14 +162,13 @@
   <main>
     <section class="section-pattern">
       <div class="section-pattern__pattern">
-        <div class="section-pattern__container">
-          <img src="./assets/img/dynamic/pattern-tree.svg" class="section-pattern__img" alt="">
-        </div>
+      <div class="section-pattern__container">
+        <img src="./assets/img/dynamic/pattern-tree.svg" class="section-pattern__img" alt="">
+      </div>
       </div>
       <div class="section__content container">
-        <h3 class="section__title">المنافسات</h3>
-        <button onclick="scrollToSection('content')" class="section__btn"><i
-            class="fa-solid fa-chevron-down"></i></button>
+        <h3 class="section__title">عن شمس</h3>
+        <button  onclick="scrollToSection('content')" class="section__btn"><i class="fa-solid fa-chevron-down"></i></button>
       </div>
     </section>
     <section>
@@ -177,82 +176,27 @@
         <img src="./assets/img/dynamic/banner.webp" alt="">
       </div>
       <div class="bg-mint">
-        <div class="container">
-          <div class="tenders" id="content">
-            <div class="tenders__item">
-              <div class="row">
-                <div class="col-9">
-                  <div class="tenders__item-heading">
-                    <span class="tenders__item-date">تاريخ النشر :2024-01-25</span>
-                    <span class="tenders__item-type">شراء مباشر</span>
-                  </div>
-                  <div class="tenders__item-body">
-                    <h3 class="tenders__item-title"> توريد خزانات أمان لتخزين المواد القابلة للاشتعال والكيماويات حسب
-                      مجال العمل المرفق لكلية العلوم والمعلومات</h3>
-                    <p class="tenders__items-description">جامعة الملك سعود بن عبد العزیز للعلوم الصحیة - ادارة الشراء
-                      المباشر بجامعة الملك سعود للعلوم الصحية</p>
-                  </div>
-                  <div class="tenders__action">
-                    <a href="#" class="primary-btn">رابط منصة اعتماد</a>
-                  </div>
-                  <div class="tenders__details">
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="tenders__details-data">
-                          <span class="tenders__details-title">الرقم المرجعي</span>
-                          <span class="tenders__details-value">240139007701</span>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="tenders__details-data">
-                          <span class="tenders__details-title">اخر موعد لإستلام الاستفسارات</span>
-                          <span class="tenders__details-value">2024-01-27</span>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="tenders__details-data">
-                          <span class="tenders__details-title">آخر موعد لتقديم العروض</span>
-                          <div class="tenders details-date ">
-                            <span class="tenders__details-value">2024-01-30</span>
-                            <span class="tenders__details-value">09:30 AM</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="tenders__progress">
-                    <div class="tenders__timer">
-                      <div class="progress-container">
-                        <div class="progress-bar" style="transform: rotate(0deg);"></div>
-                      </div>
-                    </div>
-                    <p>5 يوم 12 ساعة</p>
-                  </div>
-                  <div class="tenders__price">
-                    <p>قيمة وثائق المنافسة</p>
-                    <h4>1900 ريال</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="container" >
+        <p class="section__content-text" id="content">المؤسسة العامة للمحافظة على للشعب المرجانية والسلاحف في البحر الأحمر هي مؤسسة حكومية سعودية تأسست بموجب قرار مجلس
+        الوزراء رقم (٢٥٠) بتاريخ ١٤٤٣/٠٤/٢٥ هجري و تهدف إلى التنظيم والإشراف والمحافظة على الشعب المرجانية والسلاحف وأماكن
+        تعشيشها في البحر الأحمر، وإدارتها وإنمائها واستدامتها، والعمل على إعادة تأهيل الشعب المرجانية المتدهورة ومواقع تعشيش
+        السلاحف .وذلك من خلال تسخير الخبرات المحلية والعالمية لتنفيذ حلول مبتكرة لمراقبة وإعادة تأهيل هذه المواطن الطبيعية، بهدف
+        تعزيز مكانة المملكة العربية السعودية كقائد عالمي في الحفاظ على الشعب المرجانية والسلاحف.</p>
       </div>
+    </div>
     </section>
 
-    <script>
-      function scrollToSection(sectionId) {
-        var section = document.getElementById(sectionId);
-        if (section) {
-          section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
-          });
+      <script>
+        function scrollToSection(sectionId) {
+          var section = document.getElementById(sectionId);
+          if (section) {
+            section.scrollIntoView({
+              behavior: 'smooth',
+              block: 'center'
+            });
+          }
         }
-      }
-    </script>
+      </script>
 
 
   </main>
