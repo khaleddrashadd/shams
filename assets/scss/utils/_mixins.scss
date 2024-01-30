@@ -1,4 +1,3 @@
-
 @mixin breakpoint($breakpoint, $direction: min) {
   @if $direction == min {
     @media screen and (min-width: $breakpoint) {
@@ -21,4 +20,17 @@
 
 @mixin transition-ease($time: 0.3s, $property: all) {
   transition: $property $time ease-in-out;
+}
+
+@mixin line-clamp($num: 2) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  line-clamp: $num;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+
+  overflow: hidden;
 }

@@ -1010,13 +1010,31 @@ body {
 }
 
 .contact__heading {
-  border: 0.5px solid red;
+  border: 1px solid red;
+  border-radius: 12px;
   padding-right: 24px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .contact__heading h2 {
   font-size: 48px;
   font-weight: 700;
   color: #08266e;
+}
+.contact__pattern {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.contact__pattern img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: 61%;
 }
 
 .ceo {
