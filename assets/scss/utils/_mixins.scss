@@ -34,3 +34,8 @@
 
   overflow: hidden;
 }
+
+
+@mixin box-shadow($x: 0, $y: 23px, $blur: 44px, $spread: 0, $color: rgba(8, 38, 110, 0.44)) {
+  box-shadow: $x $y $blur $spread $color;
+}

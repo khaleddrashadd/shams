@@ -1,7 +1,7 @@
 .intro {
   position: relative;
   @include breakpoint($lg, max) {
-    margin-top: 98px;
+    margin-top: 51px;
   }
   &__action {
     position: absolute;
@@ -631,22 +631,7 @@
 }
 
 .contact {
-  background: linear-gradient(
-    to left,
-    $shams-white 0%,
-    $shams-white 59%,
-    $shams-blue-light 59%,
-    $shams-blue-light 100%
-  );
-  &:lang(en) {
-    background: linear-gradient(
-      to right,
-      $shams-white 0%,
-      $shams-white 59%,
-      $shams-blue-light 59%,
-      $shams-blue-light 100%
-    );
-  }
+  
   &__heading {
     border: 1px solid red;
     border-radius: $spacing-12;

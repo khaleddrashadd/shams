@@ -1,5 +1,7 @@
 import handleLinksSlide, { handleOurProjectsSlide } from './owl.js';
 import { handleCarouselSlide } from './carousel.js';
+import {handleNavTabs} from './navTabs.js';
+import {handleNavbarHover} from './navbar.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   handleToggleMenu();
@@ -9,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   handleLinksSlide();
   handleCarouselSlide();
   handleOurProjectsSlide();
+handleNavbarHover();
+  handleNavTabs();
 
 
 

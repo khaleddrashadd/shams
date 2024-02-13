@@ -19,3 +19,51 @@
     }
   }
 }
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: rgba(0, 196, 229, 0.1);
+  --bs-nav-link-color: #00c4e5;
+  --bs-nav-link-hover-color: #08266e;
+  --bs-nav-pills-border-radius: 12px;
+  --bs-nav-pills-link-active-color: #08266e;
+
+  .nav-link {
+    padding: $spacing-16;
+    span {
+      font-size: $font-md;
+      font-weight: 700;
+    }
+  }
+}
+
+#v-pills-tab {
+  padding: $spacing-16 $spacing-24;
+
+  svg {
+    font-size: $font-sm;
+    @include transition-ease(0.3s, all);
+  }
+
+  .nav-link {
+    gap: $spacing-10;
+
+    svg {
+      &:lang(en) {
+        rotate: (180deg);
+      }
+    }
+    &:hover {
+      border-radius: $spacing-12;
+      background-color: rgba($color: $shams-blue-light, $alpha: 0.1);
+
+      svg {
+        transform: translateX(-6px);
+      }
+    }
+    &.active {
+      svg {
+        transform: translateX(-6px);
+      }
+    }
+  }
+}
