@@ -1,24 +1,28 @@
 .bg-mint {
   background-color: $shams-mint;
 }
+.bg-mint-pattern {
+  // background-color: $shams-blue-light;
+  background: 
+    url(../../img/dynamic/bg-pattern.svg) 35% center rgb(188, 169, 169);
+}
 
 .bg-white {
-    background-color: $shams-white;
+  background-color: $shams-white;
 }
 
 .bg-blue {
-    background-color: $shams-blue;
+  background-color: $shams-blue;
 }
 
 .bg-blue-dark {
-    background-color: $shams-blue-dark;
+  background-color: $shams-blue-dark;
 }
 
 .bg-blue-light {
-    background-color: $shams-blue-light;
+  background-color: $shams-blue-light;
 }
 
 .bg-yellow {
-    background-color: $shams-yellow;
+  background-color: $shams-yellow;
 }
-

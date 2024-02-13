@@ -11,7 +11,7 @@ export const handleNavTabs = () => {
       // console.log(event.relatedTarget);
       
       //log current tab index
-      console.log(index);
+      console.log(triggerEl, '🤡🤡🤡');
     });
   });
 };

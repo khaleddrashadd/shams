@@ -1,10 +1,16 @@
 .section-pattern {
   background-color: $shams-blue;
-  position: relative;
   &__pattern {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  &__banner{
+    img{
+      max-height: 430px;
+    }
   }
   &__container {
     position: relative;
@@ -43,6 +49,9 @@
   }
 
   &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90px;
     height: 90px;
     border: 3px solid $shams-white;
@@ -63,9 +72,19 @@
     padding-block: 70px;
     font-size: $font-md;
   }
-  &__banner{
-    img{
+  &__banner {
+    img {
       height: 430px;
     }
+  }
+}
+
+.page {
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: $shams-blue-dark;
+    margin-bottom: $spacing-24;
+    line-height: normal;
   }
 }
