@@ -1,13 +1,16 @@
 .contact-page {
-
+  overflow: hidden;
   .contact{
     &__contact-form-section {
       height: min-content;
     }
-    
     &__contact-form {
       position: relative;
       height: 100%;
+      .contact__form-content{
+        z-index: 1;
+        position: inherit;
+       }
     
       &__form-bg {
         position: absolute;
@@ -15,7 +18,7 @@
         display: block;
         right: 0;
         top: 0;
-        z-index: -1;
+        z-index: 0;
         width: 1000%;
         height: 100%;
     
