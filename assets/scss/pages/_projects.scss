@@ -11,6 +11,10 @@
     display: flex;
     align-items: center;
     gap: $spacing-24;
+    
+    @include breakpoint($lg, max) {
+      flex-direction: column;
+    }
 
     &__img {
       img {

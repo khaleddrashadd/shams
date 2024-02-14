@@ -7,8 +7,8 @@
     justify-content: flex-end;
   }
 
-  &__banner{
-    img{
+  &__banner {
+    img {
       max-height: 430px;
     }
   }
@@ -18,6 +18,10 @@
     justify-content: flex-end;
     width: 450px;
     height: 240px;
+    @include breakpoint($lg, max) {
+      width: 100%;
+      height: 190px;
+    }
   }
   &__img {
     object-fit: cover;
