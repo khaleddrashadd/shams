@@ -1,39 +1,8 @@
 .contact-page {
-
-  .contact{
-    &__contact-form-section {
-      height: min-content;
-    }
-    
-    &__contact-form {
-      position: relative;
-      height: 100%;
-    
-      &__form-bg {
-        position: absolute;
-        background: url(../img/contact-bg.jpg);
-        display: block;
-        right: 0;
-        top: 0;
-        z-index: -1;
-        width: 1000%;
-        height: 100%;
-    
-        &:lang(en) {
-          left: 0;
-          right: unset !important;
-        }
-    
-        @include breakpoint($lg, max) {
-          right: -100%;
-    
-          &:lang(en) {
-            left: -100%;
-            right: unset !important;
-          }
-        }
-    
-      }
-    }
+  .a {
+    background-color: red;
+  }
+  .b {
+    background-color: blue;
   }
 }
