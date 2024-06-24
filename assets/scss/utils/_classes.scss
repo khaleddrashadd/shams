@@ -1,27 +1,9 @@
-.bg-mint {
-  background-color: $shams-mint;
+.invisible {
+  opacity: 0 !important;
 }
-.bg-mint-pattern {
-  // background-color: $shams-blue-light;
-  background-image: url(../../img/dynamic/project-1.jpg);
+.block {
+  display: block !important;
 }
-
-.bg-white {
-  background-color: $shams-white;
-}
-
-.bg-blue {
-  background-color: $shams-blue;
-}
-
-.bg-blue-dark {
-  background-color: $shams-blue-dark;
-}
-
-.bg-blue-light {
-  background-color: $shams-blue-light;
-}
-
-.bg-yellow {
-  background-color: $shams-yellow;
+.hidden {
+  display: none !important;
 }

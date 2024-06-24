@@ -1,1628 +1,1079 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar">
+<html
+  dir="ltr"
+  lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>شمس</title>
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.rtl.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="assets/css/glide.core.min.css" /> -->
+    <!-- <link rel="stylesheet" href="assets/css/glide.theme.min.css" /> -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>شمس</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
-  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <!-- <link rel="stylesheet" href="assets/css/glide.core.min.css" /> -->
-  <!-- <link rel="stylesheet" href="assets/css/glide.theme.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/owl.theme.default.min.css" />
 
-  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+    <script
+      defer
+      src="./assets/js/icons.min.js"></script>
+    <script
+      defer
+      src="./assets/js/main.js"
+      type="module"></script>
+    <script
+      defer
+      src="./assets/js/bootstrap.min.js"
+      type="module"></script>
 
-  <script defer src="./assets/js/icons.min.js"></script>
-  <script defer src="./assets/js/main.js" type="module"></script>
-  <script defer src="./assets/js/bootstrap.min.js" type="module"></script>
-
-  <script defer src="assets/js/jquery.min.js"></script>
-  <script defer src="assets/js/owl.carousel.min.js"></script>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__logo">
-      <a href="#" class="header__logo-link">
-        <img src="./assets/img/static/logo-light.svg" alt="shams logo" class="header__logo-img" />
-        <img src="./assets/img/static/logo.svg" alt="shams logo" class="header__logo-img--scrolled" />
-      </a>
-    </div>
-    <nav class="header__nav">
-      <ul class="header__nav-list">
-        <li class="header__nav-item header__nav-item--about">
-          <div class="header__nav-item-container">
-            <span>عن المؤسسة</span>
-            <span class="drop-icon">
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </div>
-
-
-
-
-        </li>
-        <li class="header__nav-item  header__nav-item--projects">
-          <div class="header__nav-item-container">
-            <span>المشاريع</span>
-            <span class="drop-icon">
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </div>
-        </li>
-        <li class="header__nav-item  header__nav-item--researches">
-          <div class="header__nav-item-container">
-            <span>الأبحاث</span>
-            <span class="drop-icon">
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </div>
-        </li>
-        <li class="header__nav-item  header__nav-item--parteners">
-          <div class="header__nav-item-container">
-            <span>الشركاء</span>
-            <span class="drop-icon">
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </div>
-        </li>
-        <li class="header__nav-item  header__nav-item--media">
-          <div class="header__nav-item-container">
-            <span>المركز الإعلامي</span>
-            <span class="drop-icon">
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </div>
-        </li>
-        <li class="header__nav-item  header__nav-item--hiring">
-          <div class="header__nav-item-container">
-            <span>التوظيف</span>
-            <span class="drop-icon">
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </div>
-
-        </li>
-        <li class="header__nav-item  header__nav-item--contact">
-          <a href="#" class="header__nav-item-container d-block">تواصل معنا</a>
-
-        </li>
-      </ul>
-
-      <div class="header__action">
-        <a href="#" class="header__lang">
-          <span class="header__lang-text">En</span>
+    <script
+      defer
+      src="assets/js/jquery.min.js"></script>
+    <script
+      defer
+      src="assets/js/owl.carousel.min.js"></script>
+  </head>
+  <body>
+    <!-- start static header web -->
+    <header class="header">
+      <div class="header__wrapper">
+        <a
+          href="#"
+          class="header__logo">
+          <img
+            width="200"
+            height="44.3"
+            src="./assets/img/static/shams-logo.svg"
+            alt="shams logo" />
         </a>
-        <a href="#" class="header__tender">
-          <span class="header__tender-text">المنافسات</span>
-        </a>
-      </div>
-    </nav>
 
-    <button type="button" class="header__menu-btn" id="menu-btn">
-      <span class="header__menu-line-1"></span>
-      <span class="header__menu-line-2"></span>
-      <span class="header__menu-line-3"></span>
-    </button>
-
-    <div class="header__menu header__menu--responsive" id="menu">
-      <ul>
-        <li class="header__menu-item">
-          <a href="#">
-            <span>عن المؤسسة</span>
-            <span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </a>
-
-        </li>
-        <li class="header__menu-item">
-          <a href="#">
-            <span>المشاريع</span>
-            <span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">
-            <span>الأبحاث</span>
-            <span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">الشركاء</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">
-            <span>المركز الإعلامي</span>
-            <span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">
-            <span>التوظيف</span>
-            <span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </span>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#">تواصل معنا</a>
-        </li>
-        <a class="header__menu-lang" href="#">
-          <span>English</span>
-        </a>
-        <a class="header__tender header__tender--menu" href="#">
-          <span class="header__tender-text">المنافسات</span>
-        </a>
-      </ul>
-    </div>
-
-    </div>
-
-    <div class="header__nav-sub-list header__nav-sub-list--about">
-      <div class="row align-items-start">
-        <div class="nav flex-column nav-pills col-lg-3 col-12" id="v-pills-tab" role="tablist"
-          aria-orientation="vertical">
-          <button class="nav-link active  d-flex align-items-baseline " id="v-pills-about-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="true">
-            <i class="fa-solid fa-chevron-left"></i>
-            <span>نبذة عن شمس
-            </span>
-          </button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-vision-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-vision" type="button" role="tab" aria-controls="v-pills-vision"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>الرؤية والرسالة
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-teams-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-teams" type="button" role="tab" aria-controls="v-pills-teams"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>فريق القيادة
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-durability-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-durability" type="button" role="tab" aria-controls="v-pills-durability"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>الالتزام بالاستدامة
-            </span></button>
+        <div class="header__utils">
+          <div class="header__lang">
+            <a
+              href="#"
+              class="header__lang-link"
+              >عربي</a
+            >
+          </div>
         </div>
-        <div class="tab-content header__sub-list-content col-lg-9 col-12 p-4" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
-            <div class="row">
-              <h4 class="header__sub-list-content-title col-12 mb-3">نبذة عن شمس</h4>
-              <div class="col-md-8 col-12">
-                <p class="header__sub-list-content-description">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و
-                  جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب تم توقيع
-                  مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان،
-                  بهدف
-                  تعزيز التعاون
-                  المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب
-                  تم
-                  توقيع مذكرة
-                  تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف
-                  تعزيز
-                  التعاون المشترك
-                  في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب</p>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="header__sub-list-media">
-                  <video autoplay muted loop src="./assets/img/dynamic/intro.mp4"></video>
-                </div>
-              </div>
-              <div class="col-12 mt-4 mb-4 mb-md-0">
-                <a href="#" class="primary-btn">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-vision" role="tabpanel" aria-labelledby="v-pills-vision-tab">1
-          </div>
-          <div class="tab-pane fade" id="v-pills-teams" role="tabpanel" aria-labelledby="v-pills-teams-tab">
-            2</div>
-          <div class="tab-pane fade" id="v-pills-durability" role="tabpanel" aria-labelledby="v-pills-durability-tab">
-            3</div>
-        </div>
-      </div>
-    </div>
 
+        <div class="header__menu">
+          <ul class="header__menu-items">
+            <li class="header__menu-item">
+              <div class="menu__item">
+                <span>About</span>
+                <i class="fa-solid fa-angle-down menu-icon"></i>
+              </div>
 
-    <div class="header__nav-sub-list header__nav-sub-list--projects">
-      <div class="row align-items-start">
-        <div class="nav flex-column nav-pills col-lg-3 col-12" id="v-pills-tab" role="tablist"
-          aria-orientation="vertical">
-          <button class="nav-link active  d-flex align-items-baseline " id="v-pills-project-1-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-project-1" type="button" role="tab" aria-controls="v-pills-project-1"
-            aria-selected="true">
-            <i class="fa-solid fa-chevron-left"></i>
-            <span>مشاريع مستمرة
-            </span>
-          </button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-project-2-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-project-2" type="button" role="tab" aria-controls="v-pills-project-2"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>مشاريع مستقبلية
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-project-3-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-project-3" type="button" role="tab" aria-controls="v-pills-project-3"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>مشاريع مكتملة
-            </span></button>
-        </div>
-        <div class="tab-content header__sub-list-content col-lg-9 col-12 p-4" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-project-1" role="tabpanel"
-            aria-labelledby="v-pills-project-1-tab">
-            <div class="row">
-              <h4 class="header__sub-list-content-title col-12 mb-3">خدمات دعم البحوث</h4>
-              <div class="col-xl-2 col-4 header__sub-list-content">
-                <div class="header__sub-list-content-media">
-                  <img src="./assets/img/dynamic/project-3.jpg" alt="img"/>
-                </div>
-                <span class="header__sub-list-content-date">08 نوفمبر 2023
-                </span>
-                <span class="header__sub-list-content-details">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب
-                </span>
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">SUSTAINABILITY COMMITMENT</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">PARTNERS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <div class="menu__item">
+                <span>Coral Reefs</span>
+                <i class="fa-solid fa-angle-down menu-icon"></i>
               </div>
-              <div class="col-xl-2 col-4 header__sub-list-content">
-                <div class="header__sub-list-content-media">
-                  <img src="./assets/img/dynamic/project-3.jpg" alt="img"/>
-                </div>
-                <span class="header__sub-list-content-date">08 نوفمبر 2023
-                </span>
-                <span class="header__sub-list-content-details">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب
-                </span>
+
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL REEFS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">THREATS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">WHAT IS SHAMS DOING?</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <div class="menu__item">
+                <span>Sea Turtles</span>
+                <i class="fa-solid fa-angle-down menu-icon"></i>
               </div>
-              <div class="col-xl-2 col-4 header__sub-list-content">
-                <div class="header__sub-list-content-media">
-                  <img src="./assets/img/dynamic/project-3.jpg" alt="img"/>
-                </div>
-                <span class="header__sub-list-content-date">08 نوفمبر 2023
-                </span>
-                <span class="header__sub-list-content-details">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب
-                </span>
+
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA TURTLE</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">THREATS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL REEFS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <div class="menu__item">
+                <span>Projects</span>
+                <i class="fa-solid fa-angle-down menu-icon"></i>
               </div>
-              <div class="col-12 mt-4 mb-4 mb-md-0 header__sub-list-action">
-                <a href="#" class="secondary-btn">
-                  <span class="secondary-btn__heading-action-text">مشاهدة الكل</span>
-                  <button class="secondary-btn__heading-action-btn">
-                    <i class="fa-solid fa-chevron-left"></i>
-                  </button>
-                </a>
+
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA TURTLE CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">THREATS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL REEFS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">TENDERS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RESEARCH</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item header__menu-item--space">
+              <div class="menu__item">
+                <span>News & Media</span>
+                <i class="fa-solid fa-angle-down menu-icon"></i>
               </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-project-2" role="tabpanel" aria-labelledby="v-pills-project-2-tab">1
-          </div>
-          <div class="tab-pane fade" id="v-pills-project-3" role="tabpanel" aria-labelledby="v-pills-project-3-tab">
-            2</div>
+
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA TURTLE CONSEVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">THREATS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL REEFS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <div class="menu__item">
+                <span>Careers</span>
+                <i class="fa-solid fa-angle-down menu-icon"></i>
+              </div>
+
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#">THREATS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA CORAL CONSERVATION</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">THREATS</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#">RED SEA TURTLE CONSERVATION</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <div class="menu__item">
+                <a href="#">Contact</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </header>
+    <!-- end static header web -->
 
+    <!-- start dynamic header web -->
+    <header class="header-top">
+      <div style="position: relative">
+        <div class="header-top__wrapper">
+          <div class="header-top__container">
+            <a
+              href="#"
+              class="header-top__logo">
+              <img
+                width="200"
+                height="44.3"
+                src="./assets/img/static/shams-logo-color.svg"
+                alt="shams logo" />
+            </a>
 
-    <div class="header__nav-sub-list header__nav-sub-list--researches">
-      <div class="row align-items-start">
-        <div class="nav flex-column nav-pills col-lg-3 col-12" id="v-pills-tab" role="tablist"
-          aria-orientation="vertical">
-          <button class="nav-link active  d-flex align-items-baseline " id="v-pills-research-1-tab"
-            data-bs-toggle="pill" data-bs-target="#v-pills-research-1" type="button" role="tab"
-            aria-controls="v-pills-research-1" aria-selected="true">
-            <i class="fa-solid fa-chevron-left"></i>
-            <span>خدمات دعم البحوث
-            </span>
-          </button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-research-2-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-research-2" type="button" role="tab" aria-controls="v-pills-research-2"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>أحدث المنشورات البحثية
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-research-3-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-research-3" type="button" role="tab" aria-controls="v-pills-research-3"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>مراكز البحوث
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-research-4-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-research-4" type="button" role="tab" aria-controls="v-pills-research-4"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>نبذة عن أبحاث شمس
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-research-5-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-research-5" type="button" role="tab" aria-controls="v-pills-research-5"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>المخرجات \ التقارير \ الموارد
-            </span></button>
-        </div>
-        <div class="tab-content header__sub-list-content col-lg-9 col-12 p-4" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-research-1" role="tabpanel"
-            aria-labelledby="v-pills-research-1-tab">
-            <div class="row">
-              <h4 class="header__sub-list-content-title col-12 mb-3">خدمات دعم البحوث</h4>
-              <div class="col-md-8 col-12">
-                <p class="header__sub-list-content-description">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و
-                  جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب تم توقيع
-                  مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان،
-                  بهدف
-                  تعزيز التعاون
-                  المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب
-                  تم
-                  توقيع مذكرة
-                  تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف
-                  تعزيز
-                  التعاون المشترك
-                  في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب</p>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="header__sub-list-media">
-                  <video autoplay muted loop src="./assets/img/dynamic/intro.mp4"></video>
-                </div>
-              </div>
-              <div class="col-12 mt-4 mb-4 mb-md-0">
-                <a href="#" class="primary-btn">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-research-2" role="tabpanel" aria-labelledby="v-pills-research-2-tab">1
-          </div>
-          <div class="tab-pane fade" id="v-pills-research-3" role="tabpanel" aria-labelledby="v-pills-research-3-tab">
-            2</div>
-          <div class="tab-pane fade" id="v-pills-research-4" role="tabpanel" aria-labelledby="v-pills-research-4-tab">
-            3</div>
-          <div class="tab-pane fade" id="v-pills-research-5" role="tabpanel" aria-labelledby="v-pills-research-5-tab">
-            4</div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="header__nav-sub-list header__nav-sub-list--parteners">
-      <div class="row align-items-start">
-        <div class="nav flex-column nav-pills col-lg-3 col-12" id="v-pills-tab" role="tablist"
-          aria-orientation="vertical">
-          <button class="nav-link active  d-flex align-items-baseline " id="v-pills-partener-1-tab"
-            data-bs-toggle="pill" data-bs-target="#v-pills-partener-1" type="button" role="tab"
-            aria-controls="v-pills-partener-1" aria-selected="true">
-            <i class="fa-solid fa-chevron-left"></i>
-            <span>نبذة عن شركاء
-            </span>
-          </button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-partener-2-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-partener-2" type="button" role="tab" aria-controls="v-pills-partener-2"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>الشركاء الاستراتيجيين
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-partener-3-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-partener-3" type="button" role="tab" aria-controls="v-pills-partener-3"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>مراكز البحوث
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-partener-4-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-partener-4" type="button" role="tab" aria-controls="v-pills-partener-4"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>فرص الشراكة/التعاون
-            </span></button>
-        </div>
-        <div class="tab-content header__sub-list-content col-lg-9 col-12 p-4" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-partener-1" role="tabpanel"
-            aria-labelledby="v-pills-partener-1-tab">
-            <div class="row">
-              <h4 class="header__sub-list-content-title col-12 mb-3">نبذة عن شركاء</h4>
-              <div class="col-md-8 col-12">
-                <p class="header__sub-list-content-description">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و
-                  جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب تم توقيع
-                  مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان،
-                  بهدف
-                  تعزيز التعاون
-                  المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب
-                  تم
-                  توقيع مذكرة
-                  تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف
-                  تعزيز
-                  التعاون المشترك
-                  في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب</p>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="header__sub-list-media">
-                  <video autoplay muted loop src="./assets/img/dynamic/intro.mp4"></video>
-                </div>
-              </div>
-              <div class="col-12 mt-4 mb-4 mb-md-0">
-                <a href="#" class="primary-btn">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-partener-2" role="tabpanel" aria-labelledby="v-pills-partener-2-tab">1
-          </div>
-          <div class="tab-pane fade" id="v-pills-partener-3" role="tabpanel" aria-labelledby="v-pills-partener-3-tab">
-            2</div>
-          <div class="tab-pane fade" id="v-pills-partener-4" role="tabpanel" aria-labelledby="v-pills-partener-4-tab">
-            3</div>
-          <div class="tab-pane fade" id="v-pills-partener-5" role="tabpanel" aria-labelledby="v-pills-partener-5-tab">
-            4</div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="header__nav-sub-list header__nav-sub-list--media">
-      <div class="row align-items-start">
-        <div class="nav flex-column nav-pills col-lg-3 col-12" id="v-pills-tab" role="tablist"
-          aria-orientation="vertical">
-          <button class="nav-link active  d-flex align-items-baseline " id="v-pills-media-1-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-media-1" type="button" role="tab" aria-controls="v-pills-media-1"
-            aria-selected="true">
-            <i class="fa-solid fa-chevron-left"></i>
-            <span>الأخبار
-            </span>
-          </button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-media-2-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-media-2" type="button" role="tab" aria-controls="v-pills-media-2"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>مكتبة الصور والفيديو 
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-media-3-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-media-3" type="button" role="tab" aria-controls="v-pills-media-3"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>الملف الصحفي
-            </span></button>
-        </div>
-        <div class="tab-content header__sub-list-content col-lg-9 col-12 p-4" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-media-1" role="tabpanel"
-            aria-labelledby="v-pills-media-1-tab">
-            <div class="row">
-              <h4 class="header__sub-list-content-title col-12 mb-3">الأخبار</h4>
-              <div class="col-xl-2 col-4 header__sub-list-content">
-                <div class="header__sub-list-content-media">
-                  <img src="./assets/img/dynamic/project-3.jpg" alt="img"/>
-                </div>
-                <span class="header__sub-list-content-date">08 نوفمبر 2023
-                </span>
-                <span class="header__sub-list-content-details">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب
-                </span>
-              </div>
-              <div class="col-xl-2 col-4 header__sub-list-content">
-                <div class="header__sub-list-content-media">
-                  <img src="./assets/img/dynamic/project-3.jpg" alt="img"/>
-                </div>
-                <span class="header__sub-list-content-date">08 نوفمبر 2023
-                </span>
-                <span class="header__sub-list-content-details">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب
-                </span>
-              </div>
-              <div class="col-xl-2 col-4 header__sub-list-content">
-                <div class="header__sub-list-content-media">
-                  <img src="./assets/img/dynamic/project-3.jpg" alt="img"/>
-                </div>
-                <span class="header__sub-list-content-date">08 نوفمبر 2023
-                </span>
-                <span class="header__sub-list-content-details">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب
-                </span>
-              </div>
-              <div class="col-12 mt-4 mb-4 mb-md-0 header__sub-list-action">
-                <a href="#" class="secondary-btn">
-                  <span class="secondary-btn__heading-action-text">مشاهدة الكل</span>
-                  <button class="secondary-btn__heading-action-btn">
-                    <i class="fa-solid fa-chevron-left"></i>
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-media-2" role="tabpanel" aria-labelledby="v-pills-media-2-tab">1
-          </div>
-          <div class="tab-pane fade" id="v-pills-media-3" role="tabpanel" aria-labelledby="v-pills-media-3-tab">
-            2</div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-    <div class="header__nav-sub-list header__nav-sub-list--hiring">
-      <div class="row align-items-start">
-        <div class="nav flex-column nav-pills col-lg-3 col-12" id="v-pills-tab" role="tablist"
-          aria-orientation="vertical">
-          <button class="nav-link active  d-flex align-items-baseline " id="v-pills-hiring-1-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-hiring-1" type="button" role="tab" aria-controls="v-pills-hiring-1"
-            aria-selected="true">
-            <i class="fa-solid fa-chevron-left"></i>
-            <span>لماذا شمس؟
-            </span>
-          </button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-hiring-2-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-hiring-2" type="button" role="tab" aria-controls="v-pills-hiring-2"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>الوظائف المتاحة
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-hiring-3-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-hiring-3" type="button" role="tab" aria-controls="v-pills-hiring-3"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>عملية التقديم
-            </span></button>
-          <button class="nav-link  d-flex align-items-baseline " id="v-pills-hiring-4-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-hiring-4" type="button" role="tab" aria-controls="v-pills-hiring-4"
-            aria-selected="false"><i class="fa-solid fa-chevron-left"></i>
-            <span>استحقاقات الموظفين
-            </span></button>
-        </div>
-        <div class="tab-content header__sub-list-content col-lg-9 col-12 p-4" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-hiring-1" role="tabpanel"
-            aria-labelledby="v-pills-hiring-1-tab">
-            <div class="row">
-              <h4 class="header__sub-list-content-title col-12 mb-3">لماذا شمس؟</h4>
-              <div class="col-md-8 col-12">
-                <p class="header__sub-list-content-description">تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على
-                  الشعب_المرجانية والسلاحف في البحر الأحمر و
-                  جامعة_جازان، بهدف تعزيز
-                  التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية،
-                  والتدريب تم توقيع
-                  مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان،
-                  بهدف
-                  تعزيز التعاون
-                  المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب
-                  تم
-                  توقيع مذكرة
-                  تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و جامعة_جازان، بهدف
-                  تعزيز
-                  التعاون المشترك
-                  في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال الدراسات، والأبحاث التطويرية، والتدريب</p>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="header__sub-list-media">
-                  <video autoplay muted loop src="./assets/img/dynamic/intro.mp4"></video>
-                </div>
-              </div>
-              <div class="col-12 mt-4 mb-4 mb-md-0">
-                <a href="#" class="primary-btn">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-hiring-2" role="tabpanel" aria-labelledby="v-pills-hiring-2-tab">1
-          </div>
-          <div class="tab-pane fade" id="v-pills-hiring-3" role="tabpanel" aria-labelledby="v-pills-hiring-3-tab">
-            2</div>
-          <div class="tab-pane fade" id="v-pills-hiring-4" role="tabpanel" aria-labelledby="v-pills-hiring-4-tab">
-            3</div>
-          <div class="tab-pane fade" id="v-pills-hiring-5" role="tabpanel" aria-labelledby="v-pills-hiring-5-tab">
-            4</div>
-        </div>
-      </div>
-    </div>
-
-
-  </header>
-
-
-  <main>
-    <section class="intro">
-      <video src="./assets/img/dynamic/intro.mp4" class="video" autoplay muted loop id="intro-video"></video>
-      <div class="video__bar">
-        <span class="video__bar-total"></span>
-        <span class="video__bar--active"></span>
-      </div>
-      <div class="intro__action">
-        <a href="#">
-          <span>كلمة الرئيس التنفيذى</span>
-        </a>
-      </div>
-    </section>
-    <section class="hero">
-
-      <div class="hero__banner">
-        <div id="hero__banner" class="carousel slide carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/dynamic/slider-1.webp" class="d-block w-100" alt="..."/>
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/dynamic/slider-2.webp" class="d-block w-100" alt="..."/>
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/dynamic/slider-3.webp" class="d-block w-100" alt="..."/>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div id="hero__slide" class="carousel slide carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="hero__card-content">
-                <h3 class="hero__card-title">عن شمس</h3>
-                <p class="hero__card-description">المؤسسة العامة للمحافظة على للشعب المرجانية السلاحف في البحر الأحمر
-                  هي
-                  مؤسسة حكومية سعودية تأسست
-                  بموجب قرار مجلس
-                  الوزراء رقم (٢٥٠) بتاريخ ١٤٤٣/٠٤/٢٥ هجري و تهدف إلى التنظيم والإشراف والمحافظة على الشعب المرجانية
-                  والسلاحف</p>
-                <a href="#" class="hero__card-action">التفاصيل</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="hero__card-content">
-                <h3 class="hero__card-title">سلاحف البحر الأحمر</h3>
-                <p class="hero__card-description">عد السلاحف البحرية بلا شك من أبرز الحيوانات رمزية التي تميز الحياة
-                  البحرية في البحر الأحمر، حيث تُبدي روعة وغنى التنوع
-                  البيولوجي التي تزخر به هذا البيئة البحرية، حيث أن السلاحف تُجسد قوة التكيف والصمود في مواجهة
-                  التحديات
-                  المحيطية، بالإضافة
-                  إلى قدرتها عل</p>
-                <a href="#" class="hero__card-action">التفاصيل</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="hero__card-content">
-                <h3 class="hero__card-title">ما هي الشعب المرجانية؟</h3>
-                <p class="hero__card-description">
-                  تعتبر الشعب المرجانية في البحر الأحمر مشهدًا ساحرًا ونظاماً بيئياً وبحرياً حيوياً بشكل استثنائي على
-                  مستوى العالم. تتواجد
-                  هذه الشعب المدهشة على طول السواحل في عدة دول، وتقدم مشهدًا بديعًا يذهل العقول بألوانه الزاهية
-                  وأشكاله
-                  الفريدة
-                </p>
-                <a href="#" class="hero__card-action"><span>التفاصيل</span></a>
-              </div>
-
-            </div>
-          </div>
-          <div class="hero__slide-action">
-
-            <button id="prevBtn" class="hero__slide-control hero__slide-control--prev" type="button"
-              data-bs-target="#hero__slide" data-bs-slide="prev">
-              <i class="fa-solid fa-chevron-left hero__slide-icon"></i>
-            </button>
-
-
-            <div class="carousel-indicators" id="carouselNav">
-              <button type="button" data-bs-target="#hero__slide" data-bs-slide-to="0" class="bullets active"
-                aria-current="true" aria-label="Slide 1">
-                <i class="fa-solid fa-circle"></i>
-              </button>
-              <button type="button" data-bs-target="#hero__slide" data-bs-slide-to="1" class="bullets"
-                aria-label="Slide 2">
-                <i class="fa-solid fa-circle"></i>
-              </button>
-              <button type="button" data-bs-target="#hero__slide" data-bs-slide-to="2" class="bullets"
-                aria-label="Slide 3">
-                <i class="fa-solid fa-circle"></i>
-              </button>
-            </div>
-
-
-
-            <button id="nextBtn" class="hero__slide-control hero__slide-control--next" type="button"
-              data-bs-target="#hero__slide" data-bs-slide="nextt">
-              <i class="fa-solid fa-chevron-right hero__slide-icon"></i>
-            </button>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <section class="our-projects">
-      <div class="container">
-        <div class="our-projects__heading">
-          <h3 class="our-projects__title">مشاريعنا</h3>
-          <div class="our-projects__pattern">
-            <img src="./assets/img/static/section-pattern.svg" alt=""/>
-          </div>
-        </div>
-        <div class="our-projects__owl-nav" dir="rtl">
-          <button id="prev" class='owl-prev'>
-            <i class="fa-solid fa-chevron-right owl-right-icon our-projects__owl-nav--right"></i>
-            <!-- <i class="fa-solid fa-chevron-right owl-right-icon our-projects__owl-nav--left"></i> -->
-          </button>
-          <button id="next" class='owl-next'>
-            <i class="fa-solid fa-chevron-left our-projects__owl-nav--left"></i>
-            <!-- <i class="fa-solid fa-chevron-right our-projects__owl-nav--right"></i> -->
-          </button>
-        </div>
-        <div class="our-projects__container owl-carousel">
-          <div class="our-projects__item">
-            <div class="our-projects__cover-wrapper">
-              <div class="our-projects__cover">
-                <img class="our-projects__cover-img" src="./assets/img/dynamic/project-2.jpg" alt=""/>
-              </div>
-              <div class="our-projects__overlay"></div>
-              <div class="our-projects__overlay-pattern">
-                <img src="./assets/img/dynamic/pattern.svg" alt="" />
-              </div>
-              <div class="our-projects__date">08 نوفمبر 2023</div>
-            </div>
-            <div class="our-projects__description">
-              <div class="our-projects__title">
-                <h2>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</h2>
-              </div>
-              <div class="our-projects__details">
-                <p>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</p>
-              </div>
-              <div class="our-projects__action">
-                <a class="primary-btn" href="#">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="our-projects__item">
-            <div class="our-projects__cover-wrapper">
-              <div class="our-projects__cover">
-                <img class="our-projects__cover-img" src="./assets/img/dynamic/project-2.jpg" alt=""/>
-              </div>
-              <div class="our-projects__overlay"></div>
-              <div class="our-projects__overlay-pattern">
-                <img src="./assets/img/dynamic/pattern.svg" alt="" />
-              </div>
-              <div class="our-projects__date">08 نوفمبر 2023</div>
-            </div>
-            <div class="our-projects__description">
-              <div class="our-projects__title">
-                <h2>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</h2>
-              </div>
-              <div class="our-projects__details">
-                <p>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</p>
-              </div>
-              <div class="our-projects__action">
-                <a class="primary-btn" href="#">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="our-projects__item">
-            <div class="our-projects__cover-wrapper">
-              <div class="our-projects__cover">
-                <img class="our-projects__cover-img" src="./assets/img/dynamic/project-2.jpg" alt=""/>
-              </div>
-              <div class="our-projects__overlay"></div>
-              <div class="our-projects__overlay-pattern">
-                <img src="./assets/img/dynamic/pattern.svg" alt="" />
-              </div>
-              <div class="our-projects__date">08 نوفمبر 2023</div>
-            </div>
-            <div class="our-projects__description">
-              <div class="our-projects__title">
-                <h2>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</h2>
-              </div>
-              <div class="our-projects__details">
-                <p>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</p>
-              </div>
-              <div class="our-projects__action">
-                <a class="primary-btn" href="#">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="our-projects__item">
-            <div class="our-projects__cover-wrapper">
-              <div class="our-projects__cover">
-                <img class="our-projects__cover-img" src="./assets/img/dynamic/project-2.jpg" alt=""/>
-              </div>
-              <div class="our-projects__overlay"></div>
-              <div class="our-projects__overlay-pattern">
-                <img src="./assets/img/dynamic/pattern.svg" alt="" />
-              </div>
-              <div class="our-projects__date">08 نوفمبر 2023</div>
-            </div>
-            <div class="our-projects__description">
-              <div class="our-projects__title">
-                <h2>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</h2>
-              </div>
-              <div class="our-projects__details">
-                <p>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</p>
-              </div>
-              <div class="our-projects__action">
-                <a class="primary-btn" href="#">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-          <div class="our-projects__item">
-            <div class="our-projects__cover-wrapper">
-              <div class="our-projects__cover">
-                <img class="our-projects__cover-img" src="./assets/img/dynamic/project-2.jpg" alt=""/>
-              </div>
-              <div class="our-projects__overlay"></div>
-              <div class="our-projects__overlay-pattern">
-                <img src="./assets/img/dynamic/pattern.svg" alt="" />
-              </div>
-              <div class="our-projects__date">08 نوفمبر 2023</div>
-            </div>
-            <div class="our-projects__description">
-              <div class="our-projects__title">
-                <h2>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</h2>
-              </div>
-              <div class="our-projects__details">
-                <p>تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في</p>
-              </div>
-              <div class="our-projects__action">
-                <a class="primary-btn" href="#">التفاصيل</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-
-    <section class="news bg-mint">
-      <div class="container">
-        <div class="news__heading">
-          <h2>الأخبار</h2>
-          <div class="news__pattern">
-            <img src="./assets/img/dynamic/news-pattern.svg" alt=""/>
-          </div>
-        </div>
-        <div class="news__heading-action">
-          <a href="#">
-            <span class="news__heading-action-text">مشاهدة الكل</span>
-            <button class="news__heading-action-btn">
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-          </a>
-        </div>
-      </div>
-      <!-- <div class="container">
-        <div class="news__tabs">
-          <div class="d-flex align-items-start">
-            <div class="row">
-              <div class="col-12 col-md-4 d-flex">
-                <div class="nav news__tabs__nav flex-column nav-pills" id="v-pills-tab" role="tablist"
-                  aria-orientation="vertical">
-                  <button class="nav-link active" id="v-pills-first-tab" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                    aria-selected="true">
-                    <div class="new__tabs__nav__title">
-                      <h4>
-                        تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و
-                        جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                        الدراسات، والأبحاث التطويرية، والتدريب
-                      </h4>
-                    </div>
-                    <div class="new__tabs__nav_subtitle">
-                      <h5>
-                        تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و
-                        جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                        الدراسات، والأبحاث التطويرية، والتدريب
-                      </h5>
-                    </div>
-                  </button>
-                  <button class="nav-link" id="v-pills-second-tab" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                    aria-selected="false">
-                    <div class="new__tabs__nav__title">
-                      <h4>
-                        تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و
-                        جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                        الدراسات، والأبحاث التطويرية، والتدريب
-                      </h4>
-                    </div>
-                    <div class="new__tabs__nav_subtitle">
-                      <h5>
-                        تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و
-                        جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                        الدراسات، والأبحاث التطويرية، والتدريب
-                      </h5>
-                    </div>
-                  </button>
-                  <button class="nav-link" id="v-pills-third-tab" data-bs-toggle="pill" data-bs-target="#v-pills-third"
-                    type="button" role="tab" aria-controls="v-pills-third" aria-selected="false">
-                    <div class="new__tabs__nav__title">
-                      <h4>
-                        تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و
-                        جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                        الدراسات، والأبحاث التطويرية، والتدريب
-                      </h4>
-                    </div>
-                    <div class="new__tabs__nav_subtitle">
-                      <h5>
-                        تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر و
-                        جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                        الدراسات، والأبحاث التطويرية، والتدريب
-                      </h5>
-                    </div>
-                  </button>
-                </div>
-              </div>
-              <div class="col-12 col-md-8 d-flex">
-                <div class="tab-content news__tabs__content w-100" id="v-pills-tabContent">
-                  <div class="tab-pane fade show active" id="v-pills-first" role="tabpanel"
-                    aria-labelledby="v-pills-first-tab" tabindex="0">
-                    <div class="news__tabs__content__wrapper">
-                      <img src="./assets/img/dynamic/project-2.jpg" alt=""/>
-                      <div class="layer">
-                      </div>
-                      <div class="news__tabs__content__wrapper__description">
-                        <p>08 نوفمبر 2023</p>
-                        <h4>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h4>
-                        <h5>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h5>
-                        <a href="#" class="primary-btn">التفاصيل</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab"
-                    tabindex="0">
-                    <div class="news__tabs__content__wrapper">
-                      <img src="./assets/img/dynamic/project-2.jpg" alt=""/>
-                      <div class="layer">
-                      </div>
-                      <div class="news__tabs__content__wrapper__description">
-                        <p>08 نوفمبر 2023</p>
-                        <h4>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h4>
-                        <h5>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h5>
-                        <a href="#" class="primary-btn">التفاصيل</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab"
-                    tabindex="0">
-                    <div class="news__tabs__content__wrapper">
-                      <img src="./assets/img/dynamic/project-2.jpg" alt=""/>
-                      <div class="layer">
-                      </div>
-                      <div class="news__tabs__content__wrapper__description">
-                        <p>08 نوفمبر 2023</p>
-                        <h4>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h4>
-                        <h5>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h5>
-                        <a href="#" class="primary-btn">التفاصيل</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <div class="container">
-        <div class="news__tabs">
-          <div class="d-flex align-items-start">
-            <div id="carouselNews" class="carousel slide w-100 carousel-fade">
-              <div class="row">
-                <div class="col-12 col-lg-4 d-flex">
-                  <div class="d-sm-none d-lg-flex carousel-indicators news__tabs__nav nav-pills">
-                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="0" class="active nav-link"
-                      aria-current="true" aria-label="Slide 1">
-                      <div class="new__tabs__nav__title">
-                        <h4>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h4>
-                      </div>
-                      <div class="new__tabs__nav_subtitle">
-                        <h5>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h5>
-                      </div>
-                    </button>
-                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="1" aria-label="Slide 2"
-                      class="nav-link">
-                      <div class="new__tabs__nav__title">
-                        <h4>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h4>
-                      </div>
-                      <div class="new__tabs__nav_subtitle">
-                        <h5>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h5>
-                      </div>
-                    </button>
-                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="2" aria-label="Slide 3"
-                      class="nav-link">
-                      <div class="new__tabs__nav__title">
-                        <h4>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h4>
-                      </div>
-                      <div class="new__tabs__nav_subtitle">
-                        <h5>
-                          تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر الأحمر
-                          و
-                          جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في مجال
-                          الدراسات، والأبحاث التطويرية، والتدريب
-                        </h5>
-                      </div>
-                    </button>
+            <div class="header-top__menu">
+              <ul class="header-top__menu-items">
+                <li class="header-top__menu-item">
+                  <div class="menu__item">
+                    <span>About</span>
+                    <i class="fa-solid fa-angle-down menu-icon"></i>
                   </div>
 
-                </div>
-                <div class="col-12 col-lg-8 d-flex">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="news__tabs__content__wrapper">
-                        <img src="./assets/img/dynamic/project-1.jpg" alt=""/>
-                        <div class="layer">
-                        </div>
-                        <div class="news__tabs__content__wrapper__description">
-                          <p>08 نوفمبر 2023</p>
-                          <h4>
-                            تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر
-                            الأحمر
-                            و
-                            جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في
-                            مجال
-                            الدراسات، والأبحاث التطويرية، والتدريب
-                          </h4>
-                          <h5>
-                            تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر
-                            الأحمر
-                            و
-                            جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في
-                            مجال
-                            الدراسات، والأبحاث التطويرية، والتدريب
-                          </h5>
-                          <a href="#" class="primary-btn">التفاصيل</a>
-                        </div>
+                  <ul class="header-top__submenu">
+                    <div class="header-top__submenu-titles">
+                      <li class="header-top__submenu-item">
+                        <span
+                          class="header-top__submenu-title header-top__submenu-title--active"
+                          >About us</span
+                        >
+                      </li>
+                      <li class="header-top__submenu-item">
+                        <a
+                          class="header-top__submenu-title"
+                          href="#"
+                          >SUSTAINABILITY COMMITMENT</a
+                        >
+                      </li>
+                      <li class="header-top__submenu-item">
+                        <a
+                          class="header-top__submenu-title"
+                          href="#"
+                          >PARTNERS</a
+                        >
+                      </li>
+                    </div>
+                    <div class="header-top__submenu-content">
+                      <div class="header-top__submenu-content--variant-1">
+                        <a href="#">
+                          <i class="fa-solid fa-angle-right menu-icon-r"></i>
+                          <span>About us </span>
+                        </a>
+                        <a href="#">
+                          <i class="fa-solid fa-angle-right menu-icon-r"></i>
+                          <span>Board of directors</span>
+                        </a>
                       </div>
                     </div>
-                    <div class="carousel-item">
-                      <div class="news__tabs__content__wrapper">
-                        <img src="./assets/img/dynamic/project-2.jpg" alt=""/>
-                        <div class="layer">
-                        </div>
-                        <div class="news__tabs__content__wrapper__description">
-                          <p>08 نوفمبر 2023</p>
-                          <h4>
-                            تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر
-                            الأحمر
-                            و
-                            جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في
-                            مجال
-                            الدراسات، والأبحاث التطويرية، والتدريب
-                          </h4>
-                          <h5>
-                            تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر
-                            الأحمر
-                            و
-                            جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في
-                            مجال
-                            الدراسات، والأبحاث التطويرية، والتدريب
-                          </h5>
-                          <a href="#" class="primary-btn">التفاصيل</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="news__tabs__content__wrapper">
-                        <img src="./assets/img/dynamic/project-3.jpg" alt=""/>
-                        <div class="layer">
-                        </div>
-                        <div class="news__tabs__content__wrapper__description">
-                          <p>08 نوفمبر 2023</p>
-                          <h4>
-                            تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر
-                            الأحمر
-                            و
-                            جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في
-                            مجال
-                            الدراسات، والأبحاث التطويرية، والتدريب
-                          </h4>
-                          <h5>
-                            تم توقيع مذكرة تفاهم بين المؤسسة العامة للمحافظة على الشعب_المرجانية والسلاحف في البحر
-                            الأحمر
-                            و
-                            جامعة_جازان، بهدف تعزيز التعاون المشترك في عدة مجالات يشمل هذا التعاون الفعال التبادل في
-                            مجال
-                            الدراسات، والأبحاث التطويرية، والتدريب
-                          </h5>
-                          <a href="#" class="primary-btn">التفاصيل</a>
-                        </div>
-                      </div>
-                    </div>
+                  </ul>
+                </li>
+                <li class="header-top__menu-item">
+                  <div class="menu__item">
+                    <span>Coral Reefs</span>
+                    <i class="fa-solid fa-angle-down menu-icon"></i>
                   </div>
-                </div>
-              </div>
-              <div class="d-sm-flex d-lg-none justify-content-end align-items-center gap-4">
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
-                  <i class='fa-solid fa-chevron-right '></i>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
-                  <i class='fa-solid fa-chevron-left '></i>
-                  <span class="visually-hidden">Next</span>
-                </button>
 
+                  <ul class="header-top__submenu">
+                    <div class="header-top__submenu-titles">
+                      <li class="header-top__submenu-item">
+                        <span
+                          class="header-top__submenu-title header-top__submenu-title--active"
+                          >Corals biology overview
+                        </span>
+                      </li>
+                      <li class="header-top__submenu-item">
+                        <a
+                          class="header-top__submenu-title"
+                          href="#"
+                          >Threats</a
+                        >
+                      </li>
+                      <li class="header-top__submenu-item">
+                        <a
+                          class="header-top__submenu-title"
+                          href="#"
+                          >What is SHAMS doing?</a
+                        >
+                      </li>
+                    </div>
+                    <div class="header-top__submenu-content">
+                      <div class="header-top__submenu-content--variant-2">
+                        <p>
+                          Coral reefs are among the most biodiverse marine
+                          ecosystems globally. in the red sea, These ecosystems
+                          host over 300 coral species and 1000 fish species,
+                          many of which are exclusive to these reefs.
+                          Additionally, coral reefs provide numerous Vital goods
+                          and services to the local population, supporting
+                          activities such as local fishing and recreational
+                          tourism. Their biological and commercial importance
+                          underscores the necessity of protecting them.
+                        </p>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li class="header-top__menu-item">
+                  <div class="menu__item">
+                    <span>Sea Turtles</span>
+                    <i class="fa-solid fa-angle-down menu-icon"></i>
+                  </div>
+
+                  <!-- <ul class="header-top__submenu">
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL CONSEVATION</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA TURTLE</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">THREATS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL REEFS</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="header-top__menu-item">
+                  <div class="menu__item">
+                    <span>Projects</span>
+                    <i class="fa-solid fa-angle-down menu-icon"></i>
+                  </div>
+
+                  <!-- <ul class="header-top__submenu">
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL CONSEVATION</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA TURTLE CONSEVATION</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">THREATS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL REEFS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">TENDERS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RESEARCH</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="header-top__menu-item header-top__menu-item--space">
+                  <div class="menu__item">
+                    <span>News & Media</span>
+                    <i class="fa-solid fa-angle-down menu-icon"></i>
+                  </div>
+
+                  <!-- <ul class="header-top__submenu">
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL CONSEVATION</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA TURTLE CONSEVATION</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">THREATS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL REEFS</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="header-top__menu-item">
+                  <div class="menu__item">
+                    <span>Careers</span>
+                    <i class="fa-solid fa-angle-down menu-icon"></i>
+                  </div>
+
+                  <!-- <ul class="header-top__submenu">
+                    <li class="header-top__submenu-item">
+                      <a href="#">THREATS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA CORAL CONSERVATION</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">THREATS</a>
+                    </li>
+                    <li class="header-top__submenu-item">
+                      <a href="#">RED SEA TURTLE CONSERVATION</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="header-top__menu-item">
+                  <div class="menu__item">
+                    <a href="#">Contact</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header-top__utils">
+              <div class="header-top__lang">
+                <a
+                  href="#"
+                  class="header-top__lang-link"
+                  >عربي</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </header>
+    <!-- end dynamic header web -->
+    <!-- start static header resposnive -->
+    <header class="header-mobile">
+      <div class="header-mobile__wrapper">
+        <a
+          href="#"
+          class="header-mobile__logo">
+          <img
+            width="200"
+            height="44.3"
+            src="./assets/img/static/shams-logo.svg"
+            alt="shams logo" />
+        </a>
 
-
-    <section class="contact">
-      <div class="container">
-        <div class="contact__heading">
-          <h2>معلومات الإتصال</h2>
-          <div class="contact__pattern">
-            <img src="./assets/img//dynamic/news-pattern.svg" alt=""/>
-          </div>
-        </div>
-        <div class="contact__content">
-          <p>سعداء باستقبالكم، كل یوم ثلاثاء، في تمام الساعة 10 ً صباحا</p>
-          <p>المؤسسة العامة للمحافظة على الشعب المرجانیة والسلاحف في البحر الأحمر</p>
-        </div>
-        <div class="row">
-          <div class="col-7">
-            <div class="contact__info">
-              <div>
-                <img src="" alt=""/>
-                <h5>البريد الإلكتروني</h5>
-                <p>ceo-office@shams.gov.sa</p>
-              </div>
-              <div>
-                <img src="" alt=""/>
-                <h5>رقم الهاتف</h5>
-                <p>00966 12 676 66666</p>
-              </div>
-              <div>
-                <img src="" alt=""/>
-                <h5>الموقع</h5>
-                <p>المركز الوطني للأرصاد الدور1 -الورود-جدة</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-5">
-            <div class="bg-blue-light contact__social-content"></div>
+        <div class="header-mobile__menu">
+          <div
+            class="header-mobile__menu-icon"
+            id="menu-icon">
+            <i class="fa-solid fa-bars mobile-menu-icon"></i>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="links">
-      <div class="container">
-        <div class="links__slide">
-          <h3 class="links__slide-title">روابط مهمة</h3>
-          <div class="row d-flex justify-content-center">
-            <div class="col-12 col-lg-10">
-              <div class="links__slide-container owl-carousel">
-                <div class="links__slide-item">
-                  <a target="_blank" href="#">
-                    <div class="links__slide-item-logo">
-                      <img src="assets/img/dynamic/logo-1.webp" alt="logo" />
-                    </div>
-                    <div class="links__slide-item-title">المديرية العامة لحرس الحدود</div>
-                  </a>
-                </div>
-                <div class="links__slide-item">
-                  <a target="_blank" href="#">
-                    <div class="links__slide-item-logo">
-                      <img src="assets/img/dynamic/logo-2.webp" alt="logo" />
-                    </div>
-                    <div class="links__slide-item-title">الهيئة السعودية للبحر الأحمر</div>
-                  </a>
-                </div>
-                <div class="links__slide-item">
-                  <a target="_blank" href="#">
-                    <div class="links__slide-item-logo">
-                      <img src="assets/img/dynamic/logo-3.webp" alt="logo" />
-                    </div>
-                    <div class="links__slide-item-title">جامعة الملك عبدالله للعلوم والتقنية</div>
-                  </a>
-                </div>
-                <div class="links__slide-item">
-                  <a target="_blank" href="#">
-                    <div class="links__slide-item-logo">
-                      <img src="assets/img/dynamic/logo-4.webp" alt="logo" />
-                    </div>
-                    <div class="links__slide-item-title">نيوم</div>
-                  </a>
-                </div>
-                <div class="links__slide-item">
-                  <a target="_blank" href="#">
-                    <div class="links__slide-item-logo">
-                      <img src="assets/img/dynamic/logo-4.webp" alt="logo" />
-                    </div>
-                    <div class="links__slide-item-title">نيوم</div>
-                  </a>
-                </div>
-              </div>
-
+      <div
+        class="drawer"
+        id="drawer">
+        <div class="drawer__header">
+          <div class="drawer__title invisible">
+            <span class="drawer__title-icon">
+              <i class="fa-solid fa-angle-left drawer-icon-r"></i>
+            </span>
+            <span
+              class="drawer__title-text"
+              id="drawer-title"></span>
+          </div>
+          <div
+            class="drawer__close"
+            id="close-menu">
+            <i class="fa-solid fa-xmark drawer-icon-close"></i>
+          </div>
+        </div>
+        <div class="drawer__body">
+          <div
+            class="drawer__items"
+            id="drawer-items">
+            <div
+              class="drawer__item drawer__item--1"
+              id="drawer-1">
+              <span class="drawer__item-title">ABOUT</span>
+              <span>
+                <i class="fa-solid fa-angle-right drawer-icon-r"></i>
+              </span>
+            </div>
+            <div
+              class="drawer__item drawer__item--2"
+              id="drawer-2">
+              <span class="drawer__item-title">CORAL REEFS</span>
+              <span>
+                <i class="fa-solid fa-angle-right drawer-icon-r"></i>
+              </span>
+            </div>
+            <div
+              class="drawer__item drawer__item--3"
+              id="drawer-3">
+              <span class="drawer__item-title">SEA TURTLES</span>
+              <span>
+                <i class="fa-solid fa-angle-right drawer-icon-r"></i>
+              </span>
+            </div>
+            <div
+              class="drawer__item drawer__item--4"
+              id="drawer-4">
+              <span class="drawer__item-title">PROJECTS</span>
+              <span>
+                <i class="fa-solid fa-angle-right drawer-icon-r"></i>
+              </span>
+            </div>
+            <div
+              class="drawer__item drawer__item--5"
+              id="drawer-5">
+              <span class="drawer__item-title">NEWS & MEDIA</span>
+              <span>
+                <i class="fa-solid fa-angle-right drawer-icon-r"></i>
+              </span>
+            </div>
+            <div
+              class="drawer__item drawer__item--6"
+              id="drawer-6">
+              <span class="drawer__item-title">CAREERS</span>
+              <span>
+                <i class="fa-solid fa-angle-right drawer-icon-r"></i>
+              </span>
+            </div>
+            <div class="drawer__item">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >CONTACT</a
+              >
+            </div>
+            <div class="drawer__item">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >عربي</a
+              >
             </div>
           </div>
-
         </div>
-
-    </section>
-
-    <section class="pattern">
-      <video src="./assets/img/dynamic/intro.mp4" class="pattern__video" autoplay muted></video>
-      <img src="./assets/img/dynamic/pattern.svg" alt=""/>
-    </section>
-  </main>
-
-  <footer class="footer-container">
-    <div class="container">
-      <div class="footer">
-        <div class="footer__site-map">
-          <div class="footer__category">
-            <h3 class="footer__category-title">عن شمس</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="footer__drop-icon">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>نبذة عن شمس</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الرؤية والرسالة</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>فريق القيادة</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الالتزام بالاستدامة</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__category">
-            <h3 class="footer__category-title">مشاريعنا</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>مشاريع مستمرة</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>مشاريع مستقبلية</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>مشاريع مكتملة</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__category">
-            <h3 class="footer__category-title">أبحاثنا</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>نبذة عن أبحاث شمس</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>مراكز البحوث</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>أحدث المنشورات البحثية</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>خدمات دعم البحوث</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الموارد / المخرجات / التقارير</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__category">
-            <h3 class="footer__category-title">شركاؤنا</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>نبذة عن شركاؤنا</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الشركاء الاستراتيجيين</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>فرص الشراكة/التعاون</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__category">
-            <h3 class="footer__category-title">المركز الإعلامى</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الأخبار</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>مكتبة الصور و الفيديو</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الملف الصحفي</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__category">
-            <h3 class="footer__category-title">التوظيف</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>لماذا شمس؟</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الوظائف المتاحة</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>عملية التقديم</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>استحقاقات الموظفين</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__category">
-            <h3 class="footer__category-title">تواصل معنا</h3>
-            <ul class="footer__Category-list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>رقم المؤسسة الموحد</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>الموقع</span>
-                </a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">
-                  <span class="drop-icon drop-icon__left">
-                    <i class="fa-solid fa-chevron-left footer__drop-icon footer__drop-icon--left"></i>
-                    <i class="fa-solid fa-chevron-right footer__drop-icon footer__drop-icon--right"></i>
-                  </span>
-                  <span>البلاغات</span>
-                </a>
-              </li>
-            </ul>
+        <div class="drawer__submenu drawer__submenu--1">
+          <div class="drawer__submenu-items">
+            <div class="drawer__submenu-item">
+              <a
+                href="#"
+                class="drawer__submenu-item-title"
+                >ABOUT</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >SUSTAINABILITY COMMITMENT</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >PARTENERS</a
+              >
+            </div>
           </div>
         </div>
-        <div class="footer__social">
-          <div class="footer__logo">
-            <img src="./assets/img/static/logo-light.svg" alt="shams logo"/>
-          </div>
-          <div class="footer__social-icons">
-            <a href="#" class="footer__social-icon">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#" class="footer__social-icon">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="#" class="footer__social-icon">
-              <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <a href="#" class="footer__social-icon">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
+        <div class="drawer__submenu drawer__submenu--2">
+          <div class="drawer__submenu-items">
+            <div class="drawer__submenu-item">
+              <a
+                href="#"
+                class="drawer__submenu-item-title"
+                >CORAL BIOLOGY OVERVIEW</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >RED SEA CORAL REEFS</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >WHAT IS SHAMS DOING</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >THREATS</a
+              >
+            </div>
           </div>
         </div>
-        <div class="footer__policy">
-          <div class="footer__policy-links">
-            <a href="#" class="footer__policy-link">
-              <span class="footer__policy-text">سياسة الخصوصية</span>
-              <span class="footer__policy-separator">|</span>
-            </a>
-            <a href="#" class="footer__policy-link">
-              <span class="footer__policy-text">شروط استخدام البوابة</span>
-              <span class="footer__policy-separator">|</span>
-            </a>
-            <a href="#" class="footer__policy-link">
-              <span class="footer__policy-text">خريطة الموقع</span>
-              <span class="footer__policy-separator">|</span>
-            </a>
-            <a href="#" class="footer__policy-link">
-              <span class="footer__policy-text">حول البوابة</span>
-
-            </a>
+        <div class="drawer__submenu drawer__submenu--3">
+          <div class="drawer__submenu-items">
+            <div class="drawer__submenu-item">
+              <a
+                href="#"
+                class="drawer__submenu-item-title"
+                >TURTLE BIOLOGY OVERVIEW</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >RED SEA CORAL REEFS</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >WHAT IS SHAMS DOING</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >THREATS</a
+              >
+            </div>
           </div>
-          <div class="footer__policy-copy">
-            <p>جميع الحقوق محفوظة - Shams.gov.sa © 2024</p>
-
+        </div>
+        <div class="drawer__submenu drawer__submenu--4">
+          <div class="drawer__submenu-items">
+            <div class="drawer__submenu-item">
+              <a
+                href="#"
+                class="drawer__submenu-item-title"
+                >Red Sea Coral Conservation</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Red Sea Turtle Conservation</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Future Projects</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Completed Projects</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Tenders</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Research</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >THREATS</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="drawer__submenu drawer__submenu--5">
+          <div class="drawer__submenu-items">
+            <div class="drawer__submenu-item">
+              <a
+                href="#"
+                class="drawer__submenu-item-title"
+                >Latest News</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Media Library</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Events</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >SHAMS brand guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="drawer__submenu drawer__submenu--6">
+          <div class="drawer__submenu-items">
+            <div class="drawer__submenu-item">
+              <a
+                href="#"
+                class="drawer__submenu-item-title"
+                >Available Positions</a
+              >
+            </div>
+            <div
+              class="drawer__item"
+              id="drawer-2">
+              <a
+                href="#"
+                class="drawer__item-title"
+                >Application Process</a
+              >
+            </div>
           </div>
         </div>
       </div>
-  </footer>
-  <script src="./assets/js/glide.min.js"></script>
-  <script>
+    </header>
+    <!-- end  static header resposnive -->
 
-  </script>
+    <main>
+      <!-- start hero video -->
+      <section class="hero">
+        <div class="hero__media">
+          <video
+            src="./assets/img/dynamic/hero.mp4"
+            muted
+            autoplay
+            loop></video>
+        </div>
+      </section>
+      <!-- end hero video -->
+    </main>
 
-</body>
-
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="sitemap">
+          <div class="row sitemap__row">
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">About</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >About us</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Sustainability commitment</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Partners</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              iv
+              class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">Coral Reefs</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Coral Biology Overview</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Red Sea Coral Reefs</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Threats</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >What is SHAMS doing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">Sea Turtles</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Turtle Biology Overview
+                    </a>
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Red Sea Turtle</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Threats</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >What is SHAMS doing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">Projects</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Red Sea Turtle Conservation</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Future Projects</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Completed Projects</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Tenders</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Research</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">News & Media</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Latest News</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Media Library</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Events</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >SHAMS brand guidelines</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">Careers</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Available Positions</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Application Process</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h3 class="sitemap__title">Contact</h3>
+              <div class="sitemap__content">
+                <ul class="sitemap__list">
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >Organization info</a
+                    >
+                  </li>
+                  <li class="sitemap__item">
+                    <i class="fa-solid fa-angle-right sitemap-icon"></i>
+                    <a
+                      class="sitemap__link"
+                      href="#"
+                      >CEO office</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shams-info">
+          <div class="shams-info__vision">
+            <div class="shams-info__logo">
+              <img
+                src="./assets/img/static/shams-logo-white.svg"
+                alt="shams logo" />
+            </div>
+            <div class="shams-info__vision-logo">
+              <img
+                src="./assets/img/static/vision-logo-white.svg"
+                alt="saudi vision logo" />
+            </div>
+          </div>
+          <div class="shams-info__social">
+            <div class="shams-info__social-icons">
+              <a href="#">
+                <i class="fa-brands fa-linkedin shams-info__social-icon"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-x-twitter shams-info__social-icon"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube shams-info__social-icon"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram shams-info__social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <ul class="footer__bottom-items">
+          <li class="footer__bottom-item">Privacy Policy</li>
+          <li class="footer__bottom-item">Terms of Use</li>
+          <li class="footer__bottom-item">Site Map</li>
+          <li class="footer__bottom-item">Careers</li>
+          <li class="footer__bottom-item">Media</li>
+          <li class="footer__bottom-item">Contact us</li>
+        </ul>
+        <p class="footer__bottom-rights">All rights are save - Shams.gov.sa © 2024</p>
+      </div>
+    </footer>
+  </body>
 </html>

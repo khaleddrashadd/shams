@@ -1,105 +1,133 @@
-.footer-container {
-  background: $shams-blue-dark;
-}
-
 .footer {
-  padding-block: $spacing-48;
-  &__site-map {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    row-gap: $spacing-16;
-    column-gap: $spacing-24;
-    border-bottom: 1px solid rgba($color: $shams-blue-light, $alpha: 0.4);
-    padding-bottom: $spacing-24;
+  position: relative;
+  z-index: 99999;
+
+  background-color: $shams-blue-dark;
+  color: $shams-white;
+
+  &__wrapper {
+    padding-inline: $spacing-48;
+    padding-block-start: $spacing-48;
+    @include breakpoint($sm) {
+      background: url('/assets/img/static/footer.webp');
+    }
   }
 
-  &__category-title {
-    font-weight: bold;
-    color: $shams-white;
-    margin-bottom: $spacing-16;
-    font-size: $font-base;
-  }
-
-  &__item {
-    color: $shams-blue-light;
-    font-size: $font-sm;
-  }
-
-  &__link {
-    display: flex;
-    align-items: center;
-    gap: $spacing-8;
-  }
-
-  &__social {
+  &__bottom {
+    background-color: $shams-blue-darker;
+    padding: $spacing-24;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: $spacing-24;
-    margin-top: $spacing-24;
+    @include breakpoint($md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__bottom-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    row-gap: $spacing-8;
+    & > *:not(:last-child) {
+      padding-inline-end: $spacing-12;
+    }
+    & > *:not(:first-child) {
+      border-inline-start: 0.75px solid rgba($shams-gray, 0.75);
+      padding-inline-start: $spacing-12;
+    }
+  }
+  &__bottom-item {
+    font-size: $font-sm;
+    color: rgba($color: $shams-white, $alpha: 0.7);
+  }
+
+  &__bottom-rights {
+    font-size: $font-sm;
+  }
+}
+
+.sitemap {
+  padding-bottom: $spacing-24;
+  border-bottom: 0.75px solid rgba($shams-blue-light, 0.4);
+
+  &__row {
+    row-gap: $spacing-24;
+  }
+  &__title {
+    font-size: $font-md;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: $spacing-16;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-12;
+  }
+  &__item {
+    display: flex;
+    align-items: baseline;
+    gap: $spacing-8;
+    @include transition-ease(0.2s);
+    &:hover {
+      color: $shams-yellow;
+      transform: translateX(2px);
+      &:lang(ar) {
+        transform: translateX(-2px);
+      }
+    }
+  }
+
+  &__link {
+    font-size: $font-sm;
+    transition: color 0.3s;
+  }
+}
+
+.shams-info {
+  display: flex;
+  gap: $spacing-24;
+  align-items: center;
+  font-size: $font-xs;
+  padding-block: $spacing-24;
+  flex-direction: column;
+  @include breakpoint($md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__vision {
+    display: flex;
+    align-items: center;
   }
 
   &__logo {
-    width: 252px;
+    padding-inline-end: $spacing-24;
+    border-inline-end: 0.75px solid rgba($shams-gray, 0.75);
+  }
+  &__vision-logo {
+    padding-inline-start: $spacing-24;
   }
 
   &__social-icons {
     display: flex;
     align-items: center;
-    gap: $spacing-12;
-    color: $shams-white;
+    gap: $spacing-24;
   }
-
-  &__policy {
-    display: flex;
-    flex-direction: column;
-    gap: $spacing-8;
+  &__social-icon {
+    font-size: 34px;
   }
+}
 
-  &__policy-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba($color: $shams-white, $alpha: 0.7);
-    font-size: $font-sm;
-    margin-top: $spacing-24;
-  }
+.sitemap-icon {
+  font-size: 9px;
 
-  &__policy-separator {
-    margin: 0 $spacing-24;
-  }
-
-  &__policy-copy {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $shams-white;
-    font-size: $font-sm;
-  }
-
-  &__drop-icon {
-    &--left {
-      color: $shams-yellow;
-      &:lang(en) {
-        display: none;
-      }
-
-      svg {
-        width: $spacing-6;
-        height: $spacing-12;
-      }
-    }
-    &--right {
-      color: $shams-yellow;
-      &:lang(ar) {
-        display: none;
-      }
-
-      svg {
-        width: $spacing-6;
-        height: $spacing-12;
-      }
-    }
+  &:lang(ar) {
+    transform: rotate(180deg);
   }
 }
