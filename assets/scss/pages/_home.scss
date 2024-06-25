@@ -149,9 +149,15 @@
   }
 
   &__media {
+    height: 413px;
+    overflow: hidden;
     & > img {
       height: 413px;
       object-fit: cover;
+      @include transition-ease;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 
