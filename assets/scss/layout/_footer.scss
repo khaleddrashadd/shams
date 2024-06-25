@@ -9,7 +9,7 @@
     padding-inline: $spacing-48;
     padding-block-start: $spacing-48;
     @include breakpoint($sm) {
-      background: url('/assets/img/static/footer.webp');
+      background: var(--footer-pattern);
       background-repeat: no-repeat;
       background-size: cover;
     }

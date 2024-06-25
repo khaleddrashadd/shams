@@ -770,6 +770,9 @@
     <!-- end  static header resposnive -->
 
     <main>
+      <button class="btn-secondary scroll-top-btn" id="scroll-top">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
       <!-- start hero video -->
       <section class="hero">
         <div class="hero__media">
@@ -778,9 +781,57 @@
             muted
             autoplay
             loop></video>
+          <div
+            class="scroll-down"
+            id="scroll-cmp"
+            data-target="about-coral">
+            <div class="scroll-down__icon">
+              <i class="fa-solid fa-angle-down scroll-down-icon"></i>
+            </div>
+            <span class="scroll-down__text">Scroll down</span>
+          </div>
         </div>
       </section>
       <!-- end hero video -->
+
+      <!-- end about us -->
+      <section class="about" id="about-coral">
+        <div class="container">
+          <div class="row about__row">
+            <div class="col-12 col-lg-8">
+              <div class="about__media">
+                <img
+                  src="./assets/img/static/about-media.webp"
+                  class="about__img"
+                  alt="about image" />
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="about__content">
+                <p class="about__text">
+                  “The General Organization for the Conservation of Coral Reefs
+                  and Turtles in the Red Sea, known as 'SHAMS', was founded by
+                  the Saudi government under the Council of Ministers Resolution
+                  No. (250) on 04/25/1443 AH. Our mission is to protect, manage,
+                  and sustain the vibrant coral reefs, the diverse marine turtle
+                  populations, and their nesting sites along the Red Sea. At
+                  SHAMS, we are committed to restoring the vitality of these
+                  crucial ecosystems and animals”
+                </p>
+                <div class="about__action">
+                  <button class="btn-primary">PLAY VIDEO</button>
+                  <a
+                    href="#"
+                    class="btn-outline"
+                    >ABOUT US</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about us -->
     </main>
 
     <footer class="footer">
@@ -1072,7 +1123,9 @@
           <li class="footer__bottom-item">Media</li>
           <li class="footer__bottom-item">Contact us</li>
         </ul>
-        <p class="footer__bottom-rights">All rights are save - Shams.gov.sa © 2024</p>
+        <p class="footer__bottom-rights">
+          All rights are save - Shams.gov.sa © 2024
+        </p>
       </div>
     </footer>
   </body>

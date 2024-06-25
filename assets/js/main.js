@@ -5,6 +5,7 @@ import {
   mobileMenuToggle,
   mobileSubMenuToggle,
 } from './navbar.js';
+import { scrollComponent } from './scrolComponent.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   navbarHandler();
@@ -12,4 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
   toggleTopHeaderHandler();
   mobileMenuToggle();
   mobileSubMenuToggle();
+  scrollComponent();
 });

@@ -21,3 +21,49 @@
     }
   }
 }
+
+.about {
+  padding-block: $spacing-48;
+  @include breakpoint($lg) {
+    padding-block: 125px;
+  }
+
+  &__row {
+    row-gap: $spacing-24;
+  }
+
+  &__media {
+    -webkit-mask-image: var(--mask-pattern);
+    mask-image: var(--mask-pattern);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+
+  &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: $spacing-24;
+  }
+
+  &__text {
+    font-size: $font-md;
+    line-height: 29px;
+    color: $shams-blue;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-24;
+
+    & > * {
+      text-align: center;
+      flex: 1;
+    }
+  }
+}
