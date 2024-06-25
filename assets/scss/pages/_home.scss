@@ -104,3 +104,66 @@
     margin-top: $spacing-48;
   }
 }
+
+.news {
+  padding-block: $spacing-48;
+
+  &__heading {
+    color: $shams-blue;
+  }
+
+  &__title {
+    font-size: 38px;
+    line-height: normal;
+    margin-top: $spacing-24;
+  }
+
+  &__link-all {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-block: 10px;
+    gap: 10px;
+  }
+
+  &__card {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  &__card-desc {
+    font-size: $font-sm;
+    color: $shams-gray;
+    margin-block: 1rem;
+    @include line-clamp(3);
+  }
+
+  &__card-link {
+    color: $shams-blue;
+    font-size: $font-base;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  &__media {
+    & > img {
+      height: 413px;
+      object-fit: cover;
+    }
+  }
+
+  &__slide {
+    @include breakpoint($lg) {
+      display: none;
+    }
+  }
+  &__content-row {
+    display: none;
+    @include breakpoint($lg) {
+      display: block;
+    }
+  }
+}

@@ -7,3 +7,9 @@
 .hidden {
   display: none !important;
 }
+
+.arrow-icon {
+  &:lang(ar) {
+    transform: rotate(180deg);
+  }
+}

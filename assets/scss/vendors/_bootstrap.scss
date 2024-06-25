@@ -1,0 +1,23 @@
+.carousel-indicator {
+  background-color: #e6e6e6 !important;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  cursor: pointer;
+  border: none !important;
+
+  &.active {
+    background-color: $shams-yellow !important;
+  }
+}
+
+.carousel-indicators {
+  margin: 0 !important;
+  position: static !important;
+}
+
+#carouselNewsIndicators {
+  display: flex !important;
+  flex-direction: column-reverse;
+  row-gap: 1rem;
+}
