@@ -27,6 +27,7 @@
 .btn-secondary {
   background-color: $shams-white;
   color: $shams-blue;
+  padding: 10px 20px;
   border: none;
   border-radius: 9999px;
   cursor: pointer;
@@ -47,6 +48,7 @@
   z-index: 99999999;
   inset-inline-end: $spacing-48;
   display: none;
+  padding: unset !important;
   &.show {
     display: block;
   }

@@ -67,3 +67,40 @@
     }
   }
 }
+
+.our-partener {
+  &__media {
+    position: relative;
+
+    & > img {
+      min-height: 468px;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    color: $shams-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  &__desc {
+    font-size: $font-md;
+    line-height: 24px;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: $spacing-48;
+  }
+}
