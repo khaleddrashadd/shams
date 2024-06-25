@@ -292,14 +292,17 @@
 .drawer {
   height: 100dvh;
   background-color: $shams-blue-dark;
-  position: absolute;
+  position: fixed;
   inset-block: 0;
-  inset-inline-start: 150%;
+  inset-inline-start: 0;
+  transform: translateX(102%);
+  width: 100%;
   inset-inline-end: 0;
   color: $shams-white;
   @include transition-ease;
   &--active {
-    inset-inline-start: 0;
+    // inset-inline-start: 0;
+    transform: translateX(0);
   }
   &__header {
     display: flex;
@@ -320,7 +323,7 @@
   }
 
   &__title-icon {
-    font-size:$font-xl ;
+    font-size: $font-xl;
   }
 
   &__close {
