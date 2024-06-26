@@ -107,7 +107,7 @@
     opacity: 0;
     transform: translateY(-20px);
     transition: all 0.3s;
-    padding-inline-start: 40px;
+    // padding-inline-start: 40px;
   }
 
   .menu__item {
@@ -121,7 +121,7 @@
   }
 
   &__submenu-item {
-    margin: 0 calc(-14.44736px + 3.402vw);
+    margin: 0 calc(-10.76096px + 1.922vw);
     padding-bottom: 0.5rem;
 
     &:hover {
@@ -171,7 +171,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   &__menu-item {
     height: 100%;
