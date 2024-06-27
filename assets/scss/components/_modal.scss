@@ -1,0 +1,27 @@
+.modal {
+    background-color: rgba(8, 39, 110,0.8);
+}
+.aboutUsVideoModal{
+    .modal-content{
+        background: none;
+        border: none;
+    }
+    .modal-dialog{
+        width: 77% !important;
+        max-width: 85% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        .modal-header{
+            border: none;
+            cursor: pointer;
+            .btn-close{
+                background: url('/assets/img/static/close.png');
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                color: $shams-white;
+            }
+        }
+    }
+}

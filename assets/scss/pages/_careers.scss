@@ -1,0 +1,103 @@
+.careers{
+    background: url('/assets/img/static/career-bg.jpg') no-repeat center center;
+    background-size: cover;
+    &__desc{
+        p{
+            color: $shams-navy;
+            text-align: center;
+            font-family: "DIN";
+            font-size: 22px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+.opportunities{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h2{
+        color: $shams-blue-dark;
+        font-family: "DIN";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        text-transform: uppercase;
+
+    }
+    p{
+        color: $shams-blue-dark;
+        font-family: "DIN";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &__imgs{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        img{
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.testimonials{
+    padding-top: 100px;
+    padding-bottom: 300px;
+    position: relative;
+    // overflow: hidden;
+    background: #F2F2F3 url('/assets/img/static/card-bg.webp') no-repeat left center;
+    @include breakpoint($sm, max) {
+        background: #F2F2F3 ;
+        padding-bottom: 100px;
+    }
+    h2{
+        color: $shams-yellow;
+        font-family: "DIN";
+        font-size: 32px;
+        margin-bottom: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        
+    }
+    p{
+        color: $shams-navy;
+        font-family: "DIN";
+        font-size: 22px;
+        font-weight: 300;
+        font-style: normal;
+        
+    }
+    img{
+        position: absolute;
+        right: 0;
+        /* height: fit-content; */
+        /* top: 100px; */
+        width: auto;
+        @include breakpoint($sm, max) {
+            position: inherit;
+            width: 100%;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+
+.our-vacancies{
+    background: url('/assets/img/static/vacancies-bg.webp') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+        &__desc{
+            color: $shams-white;
+            text-align: center;
+            font-family: "DIN";
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 48px;
+    }
+}

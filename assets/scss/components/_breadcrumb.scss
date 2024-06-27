@@ -1,0 +1,18 @@
+.breadcrumb{
+    ul{
+        display: flex;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        gap: 4px;
+        align-items: center;
+        li{
+            color: $shams-yellow;
+            &.active{
+                color:$shams-navy;
+            }
+            i{
+                font-size: 24px;
+            }
+        }
+    }
+}

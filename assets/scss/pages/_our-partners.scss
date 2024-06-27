@@ -1,0 +1,84 @@
+.our-partners{
+    background: url('/assets/img/static/our-partners-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 100px;
+    &__desc{
+        span{
+            font-weight: 700;
+        }
+        padding-top: 90px;
+        color: $shams-white;
+        text-align: justify;
+        font-family: "DIN";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .breadcrumb{
+        ul{
+            li{
+                &.active{
+                    color:$shams-white;
+                }
+            }
+        }
+    }
+}
+
+
+.partners-logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+    .logo {
+      margin-bottom: 48px;
+      cursor: pointer;
+      transition: ease all 0.5s;
+  
+      .card-img {
+        filter: grayscale(100%);
+        margin-bottom: 24px;
+        background: $shams-white;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 60px;
+        transition: filter 0.3s ease;
+  
+        img {
+          width: 80%;
+        }
+      }
+  
+      .title {
+        margin-bottom: 45px;
+  
+        p {
+          color: $shams-gray;
+          font-family: "DIN";
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+  
+      .fa-arrow-right-long {
+        color: $shams-blue-light;
+      }
+      
+      &.dimmed {
+          opacity: 0.5;
+        }
+        
+        &.highlight {
+            .card-img {
+                filter: grayscale(0%);
+            }
+            .fa-arrow-right-long {
+              color: $shams-yellow;
+            }
+      }
+    }
+  }
+  
+

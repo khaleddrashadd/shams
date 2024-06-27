@@ -37,6 +37,19 @@
     color: $shams-white;
   }
 }
+.btn-yellow {
+  background-color: $shams-yellow;
+  color: $shams-white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  @include transition-ease;
+  &:hover {
+    background-color: $shams-white;
+    color: $shams-yellow;
+  }
+}
 
 .scroll-top-btn {
   width: 44px;
